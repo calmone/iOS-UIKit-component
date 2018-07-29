@@ -51,7 +51,7 @@ class BaseViewController: UIViewController {
     }
     
     private func setupView() {
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         self.view.addSubview(self.titleLabel)
 //        self.view.addSubview(self.contentView)
         
