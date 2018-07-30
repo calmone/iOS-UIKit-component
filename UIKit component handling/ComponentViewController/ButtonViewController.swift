@@ -11,11 +11,9 @@ import UIKit
 class ButtonViewController: BaseViewController {
 
     lazy var button: UIButton = {
-        
-        // Define the size of the button
         let button = UIButton()
         
-        // Define the size of the button
+        // Define the size of the button.
         let width: CGFloat = 300
         let height: CGFloat = 100
         
@@ -47,7 +45,7 @@ class ButtonViewController: BaseViewController {
         // Tag a button.
         button.tag = 1
         
-        // Add an event
+        // Add an event.
         button.addTarget(self, action: #selector(onClickMyButton(_:)), for: .touchUpInside)
         
         return button
@@ -58,7 +56,7 @@ class ButtonViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         
-        // Add Label to view.
+        // Add Button to view.
         self.view.addSubview(self.button)
     }
 
@@ -71,7 +69,7 @@ class ButtonViewController: BaseViewController {
     @objc internal func onClickMyButton(_ sender: Any) {
         if let button = sender as? UIButton {
             print("onClickButton");
-            print("button.currentTitle: \(button.currentTitle!)")
+            print("button.currentTitle: \((button.currentTitle) ?? "Empty")")
             print("button.tag: \(button.tag)")
         }
     }

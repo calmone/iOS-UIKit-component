@@ -40,10 +40,14 @@ class RootViewController: UITableViewController {
             let componentName = component.getInfo().name
             
             switch component {
-            case .LABEL:
+            case .UILABEL:
                 vc = LabelViewController(componentName: componentName)
-            case .BUTTON:
+            case .UIBUTTON:
                 vc = ButtonViewController(componentName: componentName)
+            case .UIBUTTONS:
+                vc = ButtonsViewController(componentName: componentName)
+            case .UITEXTFIELD:
+                vc = TextFieldViewController(componentName: componentName)
             }
             
             self.navigationController?.pushViewController(vc, animated: true)

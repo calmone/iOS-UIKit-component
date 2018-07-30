@@ -11,7 +11,7 @@ import UIKit
 class LabelViewController: BaseViewController {
 
     lazy var label: UILabel = {
-        // Define the size of the label
+        // Define the size of the label.
         let width: CGFloat = 300
         let height: CGFloat = 100
         
@@ -29,13 +29,13 @@ class LabelViewController: BaseViewController {
         // Define text color.
         label.textColor = .white
         
-        // Define text font
+        // Define text font.
         label.font = .systemFont(ofSize: 20, weight: .regular)
         
         // Define text of label.
         label.text = "Hello Calmone!! :)"
         
-        // Define count of line
+        // Define count of line.
         // '0' is infinity
         label.numberOfLines = 0
         

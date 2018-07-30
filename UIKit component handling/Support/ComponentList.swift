@@ -10,19 +10,21 @@ import Foundation
 import UIKit
 
 enum ComponentList: Int {
-    case LABEL = 0
-    case BUTTON
+    case UILABEL = 0
+    case UIBUTTON
+    case UIBUTTONS
+    case UITEXTFIELD
     
     func getInfo() -> ComponentInfo {
         switch self {
-        case .LABEL:
-            return ComponentInfo(name: "Lable")
-        case .BUTTON:
-            return ComponentInfo(name: "Button")
+        case .UILABEL: return ComponentInfo(name: "UILabel")
+        case .UIBUTTON: return ComponentInfo(name: "UIButton")
+        case .UIBUTTONS: return ComponentInfo(name: "UIButtons")
+        case .UITEXTFIELD: return ComponentInfo(name: "UITextField")
         }
     }
     
-    static var count: Int { return ComponentList.BUTTON.hashValue + 1}
+    static var count: Int { return ComponentList.UITEXTFIELD.hashValue + 1}
 }
 
 struct ComponentInfo {
