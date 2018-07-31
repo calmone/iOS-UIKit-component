@@ -40,16 +40,12 @@ class RootViewController: UITableViewController {
             let componentName = component.getInfo().name
             
             switch component {
-            case .UILABEL:
-                vc = LabelViewController(componentName: componentName)
-            case .UIBUTTON:
-                vc = ButtonViewController(componentName: componentName)
-            case .UIBUTTONS:
-                vc = ButtonsViewController(componentName: componentName)
-            case .UITEXTFIELD:
-                vc = TextFieldViewController(componentName: componentName)
-            case .UIIMAGEVIEW:
-                vc = ImageViewViewController(componentName: componentName)
+            case .UILABEL: vc = LabelViewController(componentName: componentName)
+            case .UIBUTTON: vc = ButtonViewController(componentName: componentName)
+            case .UIBUTTONS: vc = ButtonsViewController(componentName: componentName)
+            case .UITEXTFIELD: vc = TextFieldViewController(componentName: componentName)
+            case .UIIMAGEVIEW: vc = ImageViewViewController(componentName: componentName)
+            case .UIFONT: vc = FontViewController(componentName: componentName)
             }
             
             self.navigationController?.pushViewController(vc, animated: true)
