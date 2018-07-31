@@ -101,7 +101,7 @@ class ButtonsViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         
-        // Add Buttons to view.
+        // Add UIButtons to view.
         self.view.addSubview(self.infoDarkButton)
         self.view.addSubview(self.infoLightButton)
         self.view.addSubview(self.addButton)

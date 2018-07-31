@@ -56,7 +56,7 @@ class ButtonViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         
-        // Add Button to view.
+        // Add UIButton to view.
         self.view.addSubview(self.button)
     }
 

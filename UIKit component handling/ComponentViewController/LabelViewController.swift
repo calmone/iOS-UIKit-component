@@ -60,7 +60,7 @@ class LabelViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         
-        // Add Label to view.
+        // Add UILabel to view.
         self.view.addSubview(self.label)
     }
 

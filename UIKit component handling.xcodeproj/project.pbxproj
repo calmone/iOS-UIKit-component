@@ -11,6 +11,8 @@
 		6B38AF5C210B51D400971CD0 /* ComponentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF5B210B51D400971CD0 /* ComponentList.swift */; };
 		6B38AF6C210E9BA800971CD0 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */; };
 		6B38AF6E210E9BB200971CD0 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */; };
+		6B38AFC6210FE46B00971CD0 /* ImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */; };
+		6B38AFC8210FE5AA00971CD0 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B38AFC7210FE5A900971CD0 /* apple.png */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		6B38AF5B210B51D400971CD0 /* ComponentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentList.swift; sourceTree = "<group>"; };
 		6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
 		6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewViewController.swift; sourceTree = "<group>"; };
+		6B38AFC7210FE5A900971CD0 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				6B971F1D210B1154009390B8 /* ButtonViewController.swift */,
 				6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */,
 				6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */,
+				6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		6B971F18210B0575009390B8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				6B38AFC7210FE5A900971CD0 /* apple.png */,
 				6B971EE9210AFF63009390B8 /* Main.storyboard */,
 				6B971EEF210AFF64009390B8 /* Assets.xcassets */,
 				6B971EF1210AFF64009390B8 /* LaunchScreen.storyboard */,
@@ -268,6 +274,7 @@
 			files = (
 				6B971EF3210AFF64009390B8 /* LaunchScreen.storyboard in Resources */,
 				6B971EF0210AFF64009390B8 /* Assets.xcassets in Resources */,
+				6B38AFC8210FE5AA00971CD0 /* apple.png in Resources */,
 				6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +307,7 @@
 				6B38AF6C210E9BA800971CD0 /* ButtonsViewController.swift in Sources */,
 				6B971F1E210B1154009390B8 /* ButtonViewController.swift in Sources */,
 				6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */,
+				6B38AFC6210FE46B00971CD0 /* ImageViewViewController.swift in Sources */,
 				6B38AF5A210B4CC100971CD0 /* BaseViewController.swift in Sources */,
 				6B38AF6E210E9BB200971CD0 /* TextFieldViewController.swift in Sources */,
 			);
