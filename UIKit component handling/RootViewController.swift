@@ -48,6 +48,8 @@ class RootViewController: UITableViewController {
                 vc = ButtonsViewController(componentName: componentName)
             case .UITEXTFIELD:
                 vc = TextFieldViewController(componentName: componentName)
+            case .UIIMAGEVIEW:
+                vc = ImageViewViewController(componentName: componentName)
             }
             
             self.navigationController?.pushViewController(vc, animated: true)
