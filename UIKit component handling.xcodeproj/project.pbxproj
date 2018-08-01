@@ -15,6 +15,7 @@
 		6B38AFC8210FE5AA00971CD0 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B38AFC7210FE5A900971CD0 /* apple.png */; };
 		6B38AFCA210FEF3200971CD0 /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC9210FEF3200971CD0 /* FontViewController.swift */; };
 		6B76EE692111394500F452AE /* UserNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76EE682111394500F452AE /* UserNotificationViewController.swift */; };
+		6B7FC7972111A07E006439B0 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7962111A07E006439B0 /* WebViewViewController.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		6B38AFC7210FE5A900971CD0 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		6B38AFC9210FEF3200971CD0 /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
 		6B76EE682111394500F452AE /* UserNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationViewController.swift; sourceTree = "<group>"; };
+		6B7FC7962111A07E006439B0 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */,
 				6B38AFC9210FEF3200971CD0 /* FontViewController.swift */,
 				6B76EE682111394500F452AE /* UserNotificationViewController.swift */,
+				6B7FC7962111A07E006439B0 /* WebViewViewController.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				6B38AF6C210E9BA800971CD0 /* ButtonsViewController.swift in Sources */,
 				6B971F1E210B1154009390B8 /* ButtonViewController.swift in Sources */,
 				6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */,
+				6B7FC7972111A07E006439B0 /* WebViewViewController.swift in Sources */,
 				6B38AFC6210FE46B00971CD0 /* ImageViewViewController.swift in Sources */,
 				6B38AF5A210B4CC100971CD0 /* BaseViewController.swift in Sources */,
 				6B38AFCA210FEF3200971CD0 /* FontViewController.swift in Sources */,
