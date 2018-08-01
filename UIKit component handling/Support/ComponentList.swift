@@ -16,6 +16,7 @@ enum ComponentList: Int {
     case UITEXTFIELD
     case UIIMAGEVIEW
     case UIFONT
+    case USERNOTIFICATION
     
     func getInfo() -> ComponentInfo {
         switch self {
@@ -25,10 +26,11 @@ enum ComponentList: Int {
         case .UITEXTFIELD: return ComponentInfo(name: "UITextField")
         case .UIIMAGEVIEW: return ComponentInfo(name: "UIImageView")
         case .UIFONT: return ComponentInfo(name: "UIFont")
+        case .USERNOTIFICATION: return ComponentInfo(name: "UserNotification")
         }
     }
     
-    static var count: Int { return ComponentList.UIFONT.hashValue + 1}
+    static var count: Int { return ComponentList.USERNOTIFICATION.hashValue + 1}
 }
 
 struct ComponentInfo {
