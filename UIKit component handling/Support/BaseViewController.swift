@@ -50,6 +50,11 @@ class BaseViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
+    func appDelegate() -> AppDelegate? {
+        guard let app = UIApplication.shared.delegate as? AppDelegate else { return nil }
+        return app
+    }
+    
     private func setupView() {
         self.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         self.view.addSubview(self.titleLabel)

@@ -48,6 +48,7 @@ class RootViewController: UITableViewController {
             case .UIFONT: vc = FontViewController(componentName: componentName)
             case .USERNOTIFICATION: vc = UserNotificationViewController(componentName: componentName)
             case .UIWEBVIEW: vc = WebViewViewController(componentName: componentName)
+            case .UIALERTCONTROLLER: vc = AlertViewController(componentName: componentName)
             }
             
             self.navigationController?.pushViewController(vc, animated: true)
