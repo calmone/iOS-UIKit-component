@@ -51,6 +51,7 @@ class RootViewController: UITableViewController {
             case .UIALERTCONTROLLER: vc = AlertViewController(componentName: componentName)
             case .UIPICKERVIEW: vc = PickerViewViewController(componentName: componentName)
             case .UINAVIGATIONCONTROLLER: vc = FirstViewController()
+            case .UITABBARCONTROLLER: vc = RootTabBarViewController()
             }
             
             self.navigationController?.pushViewController(vc, animated: true)
