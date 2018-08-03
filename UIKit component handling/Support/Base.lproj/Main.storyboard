@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--UIKit Components-->
+        <!--Components-->
         <scene sceneID="OFh-bh-Cl3">
             <objects>
                 <tableViewController id="3a0-bY-HCf" customClass="RootViewController" customModule="UIKit_component_handling" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="3a0-bY-HCf" id="aDs-cs-RgO"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="UIKit Components" id="c4m-ju-WOA"/>
+                    <navigationItem key="navigationItem" title="Components" id="c4m-ju-WOA"/>
                     <connections>
                         <outlet property="tableView" destination="xP4-rL-c8E" id="t2K-Uy-YJb"/>
                     </connections>

@@ -49,6 +49,8 @@ class RootViewController: UITableViewController {
             case .USERNOTIFICATION: vc = UserNotificationViewController(componentName: componentName)
             case .UIWEBVIEW: vc = WebViewViewController(componentName: componentName)
             case .UIALERTCONTROLLER: vc = AlertViewController(componentName: componentName)
+            case .UIPICKERVIEW: vc = PickerViewViewController(componentName: componentName)
+            case .UINAVIGATIONCONTROLLER: vc = FirstViewController()
             }
             
             self.navigationController?.pushViewController(vc, animated: true)

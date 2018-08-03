@@ -10,17 +10,17 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
-    var componentName: String!
+//    var componentName: String!
     
-    private lazy var titleLabel: UILabel = {
-        let l = UILabel()
-        l.text = self.componentName
-        l.numberOfLines = 0
-        l.textAlignment = .center
-        l.font = .systemFont(ofSize: 20, weight: .bold)
-        l.translatesAutoresizingMaskIntoConstraints = false
-        return l
-    }()
+//    private lazy var titleLabel: UILabel = {
+//        let l = UILabel()
+//        l.text = self.componentName
+//        l.numberOfLines = 0
+//        l.textAlignment = .center
+//        l.font = .systemFont(ofSize: 20, weight: .bold)
+//        l.translatesAutoresizingMaskIntoConstraints = false
+//        return l
+//    }()
     
 //    lazy var contentView: UIView = {
 //        let v = UIView()
@@ -34,6 +34,7 @@ class BaseViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setupView()
+//        self.title = self.componentName
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +44,8 @@ class BaseViewController: UIViewController {
     
     init(componentName: String) {
         super.init(nibName: nil, bundle: nil)
-        self.componentName = componentName
+        self.title = componentName
+//        self.componentName = componentName
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -57,23 +59,23 @@ class BaseViewController: UIViewController {
     
     private func setupView() {
         self.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
-        self.view.addSubview(self.titleLabel)
+//        self.view.addSubview(self.titleLabel)
 //        self.view.addSubview(self.contentView)
         
         // Add Constraints
-        addConstraintsForTitleLabel()
+//        addConstraintsForTitleLabel()
 //        addConstraintsForContentView()
     }
     
-    private func addConstraintsForTitleLabel() {
-        let leading: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 0)
-        let top: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .top, relatedBy: .equal, toItem: self.view, attribute: .topMargin, multiplier: 1, constant: 0)
-        let trailing: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .trailing, relatedBy: .equal, toItem: self.view, attribute: .trailing, multiplier: 1, constant: 0)
-        let height: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .height, relatedBy: .equal, toItem: self.view, attribute: .height, multiplier: 0.08, constant: 0)
-        
-        NSLayoutConstraint.activate([leading, top, trailing, height])
-    }
-    
+//    private func addConstraintsForTitleLabel() {
+//        let leading: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 0)
+//        let top: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .top, relatedBy: .equal, toItem: self.view, attribute: .topMargin, multiplier: 1, constant: 0)
+//        let trailing: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .trailing, relatedBy: .equal, toItem: self.view, attribute: .trailing, multiplier: 1, constant: 0)
+//        let height: NSLayoutConstraint = NSLayoutConstraint(item: self.titleLabel, attribute: .height, relatedBy: .equal, toItem: self.view, attribute: .height, multiplier: 0.08, constant: 0)
+//
+//        NSLayoutConstraint.activate([leading, top, trailing, height])
+//    }
+//
 //    private func addConstraintsForContentView() {
 //        let leading: NSLayoutConstraint = NSLayoutConstraint(item: self.contentView, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 0)
 //        let top: NSLayoutConstraint = NSLayoutConstraint(item: self.contentView, attribute: .top, relatedBy: .equal, toItem: self.titleLabel, attribute: .bottom, multiplier: 1, constant: 0)
