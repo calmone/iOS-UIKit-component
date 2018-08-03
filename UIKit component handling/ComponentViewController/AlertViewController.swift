@@ -22,7 +22,7 @@ class AlertViewController: BaseViewController {
         button.backgroundColor = UIColor.red
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 20.0
-        button.setTitle("UIAlertを発動", for: .normal)
+        button.setTitle("Show UIAlert", for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.addTarget(self, action: #selector(buttonPressed(_:)), for: .touchUpInside)
         

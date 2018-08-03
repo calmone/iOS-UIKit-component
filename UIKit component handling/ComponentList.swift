@@ -19,6 +19,7 @@ enum ComponentList: Int {
     case USERNOTIFICATION
     case UIWEBVIEW
     case UIALERTCONTROLLER
+    case UIPICKERVIEW
     
     func getInfo() -> ComponentInfo {
         switch self {
@@ -31,6 +32,7 @@ enum ComponentList: Int {
         case .USERNOTIFICATION: return ComponentInfo(name: "UserNotification")
         case .UIWEBVIEW: return ComponentInfo(name: "UIWebView")
         case .UIALERTCONTROLLER: return ComponentInfo(name: "UIAlertController")
+        case .UIPICKERVIEW: return ComponentInfo(name: "UIPickerView")
         }
     }
     
