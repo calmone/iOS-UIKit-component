@@ -1,5 +1,5 @@
 //
-//  ButtonViewController.swift
+//  ButtonVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 7. 27..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ButtonViewController: BaseViewController {
+class ButtonVC: BaseViewController {
 
     lazy var button: UIButton = {
         let button = UIButton()

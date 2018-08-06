@@ -1,5 +1,5 @@
 //
-//  WebViewViewController.swift
+//  WebViewVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 8. 1..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WebViewViewController: BaseViewController, UIWebViewDelegate {
+class WebViewVC: BaseViewController, UIWebViewDelegate {
     
     lazy var webView: UIWebView = {
         // Generate WebView.

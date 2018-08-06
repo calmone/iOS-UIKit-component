@@ -1,5 +1,5 @@
 //
-//  LabelViewController.swift
+//  LabelVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 7. 27..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LabelViewController: BaseViewController {
+class LabelVC: BaseViewController {
 
     lazy var label: UILabel = {
         // Define the size of the label.

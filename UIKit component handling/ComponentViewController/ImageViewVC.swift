@@ -1,5 +1,5 @@
 //
-//  ImageViewViewController.swift
+//  ImageViewVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 7. 31..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImageViewViewController: BaseViewController {
+class ImageViewVC: BaseViewController {
     
     lazy var imageView: UIImageView = {
         // Set the size of UIImageView.

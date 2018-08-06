@@ -1,5 +1,5 @@
 //
-//  UserNotificationViewController.swift
+//  UserNotificationVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 8. 1..
@@ -9,7 +9,7 @@
 import UIKit
 import UserNotifications
 
-class UserNotificationViewController: BaseViewController, UNUserNotificationCenterDelegate {
+class UserNotificationVC: BaseViewController, UNUserNotificationCenterDelegate {
     
     private let BUTTON_NORMAL: Int = 1
     private let BUTTON_FIRE: Int = 2

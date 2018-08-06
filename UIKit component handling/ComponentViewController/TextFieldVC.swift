@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextFieldViewController: BaseViewController, UITextFieldDelegate {
+class TextFieldVC: BaseViewController, UITextFieldDelegate {
     
     lazy var textField: UITextField = {
         // Set x, y and width and height to place UITextField.

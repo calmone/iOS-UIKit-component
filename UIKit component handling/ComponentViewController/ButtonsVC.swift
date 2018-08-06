@@ -1,5 +1,5 @@
 //
-//  ButtonsViewController.swift
+//  ButtonsVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 7. 30..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ButtonsViewController: BaseViewController {
+class ButtonsVC: BaseViewController {
     
     lazy var infoDarkButton: UIButton = {
         // Generate button.

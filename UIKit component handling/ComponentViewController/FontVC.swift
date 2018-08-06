@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FontViewController: BaseViewController {
+class FontVC: BaseViewController {
 
     // Display a character string of a smaller font on the label.
     lazy var smallLabel: UILabel = {

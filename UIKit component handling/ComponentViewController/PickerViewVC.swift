@@ -1,5 +1,5 @@
 //
-//  PickerViewViewController.swift
+//  PickerViewVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 8. 3..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PickerViewViewController: BaseViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class PickerViewVC: BaseViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     lazy var pickerView: UIPickerView = {
         // Generate UIPickerView.
@@ -17,7 +17,7 @@ class PickerViewViewController: BaseViewController, UIPickerViewDelegate, UIPick
         // Specify the size.
         picker.frame = CGRect(x: 0, y: 150, width: self.view.bounds.width, height: 180.0)
         
-        // Set the backgroundColor.
+        // Set the background Color.
         picker.backgroundColor = .white
         
         // Set the delegate.

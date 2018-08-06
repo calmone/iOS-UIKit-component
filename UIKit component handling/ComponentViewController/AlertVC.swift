@@ -1,5 +1,5 @@
 //
-//  AlertViewController.swift
+//  AlertVC.swift
 //  UIKit component handling
 //
 //  Created by Taehyeon Han on 2018. 8. 2..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AlertViewController: BaseViewController {
+class AlertVC: BaseViewController {
     
     // Generate UIButton.
     lazy var button: UIButton = {
