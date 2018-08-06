@@ -9,20 +9,23 @@
 /* Begin PBXBuildFile section */
 		6B38AF5A210B4CC100971CD0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF59210B4CC100971CD0 /* BaseViewController.swift */; };
 		6B38AF5C210B51D400971CD0 /* ComponentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF5B210B51D400971CD0 /* ComponentList.swift */; };
-		6B38AF6C210E9BA800971CD0 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */; };
-		6B38AF6E210E9BB200971CD0 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */; };
-		6B38AFC6210FE46B00971CD0 /* ImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */; };
+		6B38AF6C210E9BA800971CD0 /* ButtonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6B210E9BA800971CD0 /* ButtonsVC.swift */; };
+		6B38AF6E210E9BB200971CD0 /* TextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AF6D210E9BB200971CD0 /* TextFieldVC.swift */; };
+		6B38AFC6210FE46B00971CD0 /* ImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC5210FE46B00971CD0 /* ImageViewVC.swift */; };
 		6B38AFC8210FE5AA00971CD0 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B38AFC7210FE5A900971CD0 /* apple.png */; };
-		6B38AFCA210FEF3200971CD0 /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC9210FEF3200971CD0 /* FontViewController.swift */; };
-		6B76EE692111394500F452AE /* UserNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76EE682111394500F452AE /* UserNotificationViewController.swift */; };
-		6B7FC7972111A07E006439B0 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7962111A07E006439B0 /* WebViewViewController.swift */; };
-		6B7FC799211288B9006439B0 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC798211288B9006439B0 /* AlertViewController.swift */; };
-		6B7FC7A42113DA32006439B0 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7A32113DA32006439B0 /* PickerViewViewController.swift */; };
+		6B38AFCA210FEF3200971CD0 /* FontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B38AFC9210FEF3200971CD0 /* FontVC.swift */; };
+		6B76EE692111394500F452AE /* UserNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76EE682111394500F452AE /* UserNotificationVC.swift */; };
+		6B7FC7972111A07E006439B0 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7962111A07E006439B0 /* WebViewVC.swift */; };
+		6B7FC799211288B9006439B0 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC798211288B9006439B0 /* AlertVC.swift */; };
+		6B7FC7A42113DA32006439B0 /* PickerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7A32113DA32006439B0 /* PickerViewVC.swift */; };
 		6B7FC7A62113DF9A006439B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7A52113DF9A006439B0 /* FirstViewController.swift */; };
 		6B7FC7A82113DFA5006439B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7A72113DFA5006439B0 /* SecondViewController.swift */; };
 		6B7FC7AC2113E4CE006439B0 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7AB2113E4CE006439B0 /* FirstTabBarViewController.swift */; };
 		6B7FC7AE2113E4D8006439B0 /* SecondTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7AD2113E4D8006439B0 /* SecondTabBarViewController.swift */; };
 		6B7FC7B02113E4EF006439B0 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7AF2113E4EF006439B0 /* RootTabBarViewController.swift */; };
+		6B7FC7B22116BCDD006439B0 /* TransformImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7B12116BCDD006439B0 /* TransformImageViewVC.swift */; };
+		6B7FC7B52117D1D4006439B0 /* PushFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7B42117D1D4006439B0 /* PushFirstVC.swift */; };
+		6B7FC7B72117D1E1006439B0 /* PushSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7B62117D1E1006439B0 /* PushSecondVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -31,8 +34,8 @@
 		6B971EF3210AFF64009390B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EF1210AFF64009390B8 /* LaunchScreen.storyboard */; };
 		6B971EFE210AFF64009390B8 /* UIKit_component_handlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EFD210AFF64009390B8 /* UIKit_component_handlingTests.swift */; };
 		6B971F09210AFF64009390B8 /* UIKit_component_handlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971F08210AFF64009390B8 /* UIKit_component_handlingUITests.swift */; };
-		6B971F1C210B10AD009390B8 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971F1B210B10AD009390B8 /* LabelViewController.swift */; };
-		6B971F1E210B1154009390B8 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971F1D210B1154009390B8 /* ButtonViewController.swift */; };
+		6B971F1C210B10AD009390B8 /* LabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971F1B210B10AD009390B8 /* LabelVC.swift */; };
+		6B971F1E210B1154009390B8 /* ButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971F1D210B1154009390B8 /* ButtonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,20 +58,23 @@
 /* Begin PBXFileReference section */
 		6B38AF59210B4CC100971CD0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6B38AF5B210B51D400971CD0 /* ComponentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentList.swift; sourceTree = "<group>"; };
-		6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
-		6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
-		6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewViewController.swift; sourceTree = "<group>"; };
+		6B38AF6B210E9BA800971CD0 /* ButtonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsVC.swift; sourceTree = "<group>"; };
+		6B38AF6D210E9BB200971CD0 /* TextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldVC.swift; sourceTree = "<group>"; };
+		6B38AFC5210FE46B00971CD0 /* ImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewVC.swift; sourceTree = "<group>"; };
 		6B38AFC7210FE5A900971CD0 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
-		6B38AFC9210FEF3200971CD0 /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
-		6B76EE682111394500F452AE /* UserNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationViewController.swift; sourceTree = "<group>"; };
-		6B7FC7962111A07E006439B0 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
-		6B7FC798211288B9006439B0 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
-		6B7FC7A32113DA32006439B0 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		6B38AFC9210FEF3200971CD0 /* FontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontVC.swift; sourceTree = "<group>"; };
+		6B76EE682111394500F452AE /* UserNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationVC.swift; sourceTree = "<group>"; };
+		6B7FC7962111A07E006439B0 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		6B7FC798211288B9006439B0 /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		6B7FC7A32113DA32006439B0 /* PickerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewVC.swift; sourceTree = "<group>"; };
 		6B7FC7A52113DF9A006439B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		6B7FC7A72113DFA5006439B0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6B7FC7AB2113E4CE006439B0 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
 		6B7FC7AD2113E4D8006439B0 /* SecondTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewController.swift; sourceTree = "<group>"; };
 		6B7FC7AF2113E4EF006439B0 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		6B7FC7B12116BCDD006439B0 /* TransformImageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformImageViewVC.swift; sourceTree = "<group>"; };
+		6B7FC7B42117D1D4006439B0 /* PushFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushFirstVC.swift; sourceTree = "<group>"; };
+		6B7FC7B62117D1E1006439B0 /* PushSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushSecondVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -83,8 +89,8 @@
 		6B971F04210AFF64009390B8 /* UIKit component handlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit component handlingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971F08210AFF64009390B8 /* UIKit_component_handlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_component_handlingUITests.swift; sourceTree = "<group>"; };
 		6B971F0A210AFF64009390B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B971F1B210B10AD009390B8 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
-		6B971F1D210B1154009390B8 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		6B971F1B210B10AD009390B8 /* LabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelVC.swift; sourceTree = "<group>"; };
+		6B971F1D210B1154009390B8 /* ButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,15 @@
 				6B7FC7AD2113E4D8006439B0 /* SecondTabBarViewController.swift */,
 			);
 			path = UITabBarController;
+			sourceTree = "<group>";
+		};
+		6B7FC7B32117D199006439B0 /* UiViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B7FC7B42117D1D4006439B0 /* PushFirstVC.swift */,
+				6B7FC7B62117D1E1006439B0 /* PushSecondVC.swift */,
+			);
+			path = UiViewController;
 			sourceTree = "<group>";
 		};
 		6B971ED9210AFF63009390B8 = {
@@ -184,18 +199,20 @@
 		6B971F17210B056F009390B8 /* ComponentViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6B971F1B210B10AD009390B8 /* LabelViewController.swift */,
-				6B971F1D210B1154009390B8 /* ButtonViewController.swift */,
-				6B38AF6B210E9BA800971CD0 /* ButtonsViewController.swift */,
-				6B38AF6D210E9BB200971CD0 /* TextFieldViewController.swift */,
-				6B38AFC5210FE46B00971CD0 /* ImageViewViewController.swift */,
-				6B38AFC9210FEF3200971CD0 /* FontViewController.swift */,
-				6B76EE682111394500F452AE /* UserNotificationViewController.swift */,
-				6B7FC7962111A07E006439B0 /* WebViewViewController.swift */,
-				6B7FC798211288B9006439B0 /* AlertViewController.swift */,
-				6B7FC7A32113DA32006439B0 /* PickerViewViewController.swift */,
+				6B971F1B210B10AD009390B8 /* LabelVC.swift */,
+				6B971F1D210B1154009390B8 /* ButtonVC.swift */,
+				6B38AF6B210E9BA800971CD0 /* ButtonsVC.swift */,
+				6B38AF6D210E9BB200971CD0 /* TextFieldVC.swift */,
+				6B38AFC5210FE46B00971CD0 /* ImageViewVC.swift */,
+				6B38AFC9210FEF3200971CD0 /* FontVC.swift */,
+				6B76EE682111394500F452AE /* UserNotificationVC.swift */,
+				6B7FC7962111A07E006439B0 /* WebViewVC.swift */,
+				6B7FC798211288B9006439B0 /* AlertVC.swift */,
+				6B7FC7A32113DA32006439B0 /* PickerViewVC.swift */,
+				6B7FC7B12116BCDD006439B0 /* TransformImageViewVC.swift */,
 				6B7FC7A92113E49E006439B0 /* UINavigationViewController */,
 				6B7FC7AA2113E4AF006439B0 /* UITabBarController */,
+				6B7FC7B32117D199006439B0 /* UiViewController */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -348,24 +365,27 @@
 			files = (
 				6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */,
 				6B7FC7A82113DFA5006439B0 /* SecondViewController.swift in Sources */,
-				6B7FC799211288B9006439B0 /* AlertViewController.swift in Sources */,
-				6B971F1C210B10AD009390B8 /* LabelViewController.swift in Sources */,
+				6B7FC799211288B9006439B0 /* AlertVC.swift in Sources */,
+				6B971F1C210B10AD009390B8 /* LabelVC.swift in Sources */,
 				6B7FC7AE2113E4D8006439B0 /* SecondTabBarViewController.swift in Sources */,
+				6B7FC7B52117D1D4006439B0 /* PushFirstVC.swift in Sources */,
 				6B971EEE210AFF63009390B8 /* UIKit_component_handling.xcdatamodeld in Sources */,
 				6B38AF5C210B51D400971CD0 /* ComponentList.swift in Sources */,
-				6B76EE692111394500F452AE /* UserNotificationViewController.swift in Sources */,
-				6B38AF6C210E9BA800971CD0 /* ButtonsViewController.swift in Sources */,
-				6B971F1E210B1154009390B8 /* ButtonViewController.swift in Sources */,
+				6B76EE692111394500F452AE /* UserNotificationVC.swift in Sources */,
+				6B38AF6C210E9BA800971CD0 /* ButtonsVC.swift in Sources */,
+				6B971F1E210B1154009390B8 /* ButtonVC.swift in Sources */,
 				6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */,
-				6B7FC7972111A07E006439B0 /* WebViewViewController.swift in Sources */,
+				6B7FC7972111A07E006439B0 /* WebViewVC.swift in Sources */,
 				6B7FC7B02113E4EF006439B0 /* RootTabBarViewController.swift in Sources */,
 				6B7FC7AC2113E4CE006439B0 /* FirstTabBarViewController.swift in Sources */,
-				6B38AFC6210FE46B00971CD0 /* ImageViewViewController.swift in Sources */,
+				6B38AFC6210FE46B00971CD0 /* ImageViewVC.swift in Sources */,
 				6B7FC7A62113DF9A006439B0 /* FirstViewController.swift in Sources */,
-				6B7FC7A42113DA32006439B0 /* PickerViewViewController.swift in Sources */,
+				6B7FC7A42113DA32006439B0 /* PickerViewVC.swift in Sources */,
+				6B7FC7B22116BCDD006439B0 /* TransformImageViewVC.swift in Sources */,
 				6B38AF5A210B4CC100971CD0 /* BaseViewController.swift in Sources */,
-				6B38AFCA210FEF3200971CD0 /* FontViewController.swift in Sources */,
-				6B38AF6E210E9BB200971CD0 /* TextFieldViewController.swift in Sources */,
+				6B38AFCA210FEF3200971CD0 /* FontVC.swift in Sources */,
+				6B7FC7B72117D1E1006439B0 /* PushSecondVC.swift in Sources */,
+				6B38AF6E210E9BB200971CD0 /* TextFieldVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 74C7J4KTMM;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKit component handling/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +578,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 74C7J4KTMM;
 				INFOPLIST_FILE = "$(SRCROOT)/UIKit component handling/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

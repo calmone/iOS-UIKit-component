@@ -40,18 +40,20 @@ class RootViewController: UITableViewController {
             let componentName = component.getInfo().name
             
             switch component {
-            case .UILABEL: vc = LabelViewController(componentName: componentName)
-            case .UIBUTTON: vc = ButtonViewController(componentName: componentName)
-            case .UIBUTTONS: vc = ButtonsViewController(componentName: componentName)
-            case .UITEXTFIELD: vc = TextFieldViewController(componentName: componentName)
-            case .UIIMAGEVIEW: vc = ImageViewViewController(componentName: componentName)
-            case .UIFONT: vc = FontViewController(componentName: componentName)
-            case .USERNOTIFICATION: vc = UserNotificationViewController(componentName: componentName)
-            case .UIWEBVIEW: vc = WebViewViewController(componentName: componentName)
-            case .UIALERTCONTROLLER: vc = AlertViewController(componentName: componentName)
-            case .UIPICKERVIEW: vc = PickerViewViewController(componentName: componentName)
+            case .UILABEL: vc = LabelVC(componentName: componentName)
+            case .UIBUTTON: vc = ButtonVC(componentName: componentName)
+            case .UIBUTTONS: vc = ButtonsVC(componentName: componentName)
+            case .UITEXTFIELD: vc = TextFieldVC(componentName: componentName)
+            case .UIIMAGEVIEW: vc = ImageViewVC(componentName: componentName)
+            case .UIFONT: vc = FontVC(componentName: componentName)
+            case .USERNOTIFICATION: vc = UserNotificationVC(componentName: componentName)
+            case .UIWEBVIEW: vc = WebViewVC(componentName: componentName)
+            case .UIALERTCONTROLLER: vc = AlertVC(componentName: componentName)
+            case .UIPICKERVIEW: vc = PickerViewVC(componentName: componentName)
             case .UINAVIGATIONCONTROLLER: vc = FirstViewController()
             case .UITABBARCONTROLLER: vc = RootTabBarViewController()
+            case .TRANSFORMUIIMAGEVIEW: vc = TransformImageViewVC(componentName: componentName)
+            case .PUSHVIEWCONTROLLER: vc = PushFirstVC(componentName: "FirstVC")
             }
             
             self.navigationController?.pushViewController(vc, animated: true)

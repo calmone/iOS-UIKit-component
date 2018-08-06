@@ -8,12 +8,32 @@
 
 import UIKit
 
-class PushSecondVC: UIViewController {
+class PushSecondVC: BaseViewController {
+    
+    // Generate UIButton
+    lazy var backButton: UIButton = {
+        // Create a button.
+        let button: UIButton = UIButton(frame: CGRect(x: 0,y: 0, width: 120, height: 50))
+        button.backgroundColor = .red
+        button.layer.masksToBounds = true
+        button.setTitle("Back", for: .normal)
+        button.layer.cornerRadius = 20.0
+        button.layer.position = CGPoint(x: self.view.bounds.width/2 , y:self.view.bounds.height-50)
+        button.addTarget(self, action: #selector(buttonPressed(_:)), for: .touchUpInside)
+        
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // Set the background color to Green.
+        self.view.backgroundColor = .orange
+        
+        // Add UIButton on view
+        self.view.addSubview(self.backButton)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +41,10 @@ class PushSecondVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Button event.
+    @objc private func buttonPressed(_ sender: Any) {
+        // Move the View.
+        self.navigationController?.popViewController(animated: true)
     }
-    */
 
 }
