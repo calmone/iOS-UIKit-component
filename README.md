@@ -19,4 +19,5 @@ Sharing the handling of components in UIKit
 - PushViewController
 - UIScrollView
 - UIBarButtonItem
+- UIPageControl
 - .... more componets comming soon!!
