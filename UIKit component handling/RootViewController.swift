@@ -29,7 +29,7 @@ class RootViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ComponentList.count
+        return ComponentList.COUNT.hashValue
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -56,6 +56,8 @@ class RootViewController: UITableViewController {
             case .PUSHVIEWCONTROLLER: vc = PushFirstVC(componentName: "FirstVC")
             case .UISCROLLVIEW: vc = ScrollViewVC(componentName: componentName)
             case .UIBARBUTTONITEM: vc = BarButtonItemVC()
+            case .UIPAGECONTROL: vc = PageControlVC(componentName: componentName)
+            case .COUNT: return
             }
             
             self.navigationController?.pushViewController(vc, animated: true)

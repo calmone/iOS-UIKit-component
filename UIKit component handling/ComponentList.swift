@@ -26,6 +26,8 @@ enum ComponentList: Int {
     case PUSHVIEWCONTROLLER
     case UISCROLLVIEW
     case UIBARBUTTONITEM
+    case UIPAGECONTROL
+    case COUNT /* Don't use */
     
     func getInfo() -> ComponentInfo {
         switch self {
@@ -45,10 +47,11 @@ enum ComponentList: Int {
         case .PUSHVIEWCONTROLLER: return ComponentInfo(name: "PushViewController")
         case .UISCROLLVIEW: return ComponentInfo(name: "UIScrollView")
         case .UIBARBUTTONITEM: return ComponentInfo(name: "UIBarButtonItem")
+        case .UIPAGECONTROL: return ComponentInfo(name: "UIPageControl")
+        case .COUNT: return ComponentInfo(name: "Count")
         }
     }
     
-    static var count: Int { return ComponentList.UIBARBUTTONITEM.hashValue + 1}
 }
 
 struct ComponentInfo {
