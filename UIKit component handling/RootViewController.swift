@@ -55,6 +55,7 @@ class RootViewController: UITableViewController {
             case .TRANSFORMUIIMAGEVIEW: vc = TransformImageViewVC(componentName: componentName)
             case .PUSHVIEWCONTROLLER: vc = PushFirstVC(componentName: "FirstVC")
             case .UISCROLLVIEW: vc = ScrollViewVC(componentName: componentName)
+            case .UIBARBUTTONITEM: vc = BarButtonItemVC()
             }
             
             self.navigationController?.pushViewController(vc, animated: true)
