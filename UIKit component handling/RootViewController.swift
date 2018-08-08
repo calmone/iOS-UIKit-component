@@ -57,6 +57,7 @@ class RootViewController: UITableViewController {
             case .UISCROLLVIEW: vc = ScrollViewVC(componentName: componentName)
             case .UIBARBUTTONITEM: vc = BarButtonItemVC()
             case .UIPAGECONTROL: vc = PageControlVC(componentName: componentName)
+            case .SECTIONUITABLEVIEW: vc = SectionTableViewVC(componentName: componentName)
             case .COUNT: return
             }
             
