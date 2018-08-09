@@ -35,6 +35,7 @@
 		6B7FC7DA211BC5DB006439B0 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */; };
 		6B7FC7DC211BC9F1006439B0 /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */; };
 		6B7FC7DE211BCCAF006439B0 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */; };
+		6B7FC7E0211C0A4F006439B0 /* ActivityIndicatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -93,6 +94,7 @@
 		6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
 		6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */,
 				6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */,
 				6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */,
+				6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				6B7FC7DC211BC9F1006439B0 /* SwitchVC.swift in Sources */,
 				6B7FC7DE211BCCAF006439B0 /* DatePickerVC.swift in Sources */,
 				6B7FC7B92117D6DD006439B0 /* ScrollViewVC.swift in Sources */,
+				6B7FC7E0211C0A4F006439B0 /* ActivityIndicatorVC.swift in Sources */,
 				6B7FC7DA211BC5DB006439B0 /* SliderVC.swift in Sources */,
 				6B7FC7A62113DF9A006439B0 /* FirstViewController.swift in Sources */,
 				6B7FC7A42113DA32006439B0 /* PickerViewVC.swift in Sources */,
