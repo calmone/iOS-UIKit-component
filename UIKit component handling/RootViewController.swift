@@ -67,6 +67,7 @@ class RootViewController: UITableViewController {
             case .UIWINDOW: vc = WindowVC(componentName: componentName)
             case .UITOOLBAR: vc = ToolBarVC(componentName: componentName)
             case .UIPROGRESSVIEW: vc = ProgressVC(componentName: componentName)
+            case .UISEGMENTEDCONTROL: vc = SegmentedControlVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
