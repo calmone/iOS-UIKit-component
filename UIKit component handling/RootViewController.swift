@@ -63,6 +63,8 @@ class RootViewController: UITableViewController {
             case .UISWITCH: vc = SwitchVC(componentName: componentName)
             case .UIDATEPICKER: vc = DatePickerVC(componentName: componentName)
             case .UIACTIVITYINDICATOR: vc = ActivityIndicatorVC(componentName: componentName)
+            case .UISEARCHBAR: vc = SearchBarVC(componentName: componentName)
+            case .UIWINDOW: vc = WindowVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

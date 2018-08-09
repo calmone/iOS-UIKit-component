@@ -36,6 +36,8 @@
 		6B7FC7DC211BC9F1006439B0 /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */; };
 		6B7FC7DE211BCCAF006439B0 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */; };
 		6B7FC7E0211C0A4F006439B0 /* ActivityIndicatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */; };
+		6B7FC7E2211C0DA2006439B0 /* SearchBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7E1211C0DA2006439B0 /* SearchBarVC.swift */; };
+		6B7FC7E4211C24D9006439B0 /* WindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7E3211C24D9006439B0 /* WindowVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -95,6 +97,8 @@
 		6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
 		6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVC.swift; sourceTree = "<group>"; };
+		6B7FC7E1211C0DA2006439B0 /* SearchBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarVC.swift; sourceTree = "<group>"; };
+		6B7FC7E3211C24D9006439B0 /* WindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -242,6 +246,8 @@
 				6B7FC7DB211BC9F1006439B0 /* SwitchVC.swift */,
 				6B7FC7DD211BCCAF006439B0 /* DatePickerVC.swift */,
 				6B7FC7DF211C0A4F006439B0 /* ActivityIndicatorVC.swift */,
+				6B7FC7E1211C0DA2006439B0 /* SearchBarVC.swift */,
+				6B7FC7E3211C24D9006439B0 /* WindowVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -412,7 +418,9 @@
 				6B7FC7B02113E4EF006439B0 /* RootTabBarViewController.swift in Sources */,
 				6B7FC7D8211BC2B0006439B0 /* TextViewVC.swift in Sources */,
 				6B7FC7AC2113E4CE006439B0 /* FirstTabBarViewController.swift in Sources */,
+				6B7FC7E4211C24D9006439B0 /* WindowVC.swift in Sources */,
 				6B7FC7C121192428006439B0 /* BarButtonItemVC.swift in Sources */,
+				6B7FC7E2211C0DA2006439B0 /* SearchBarVC.swift in Sources */,
 				6B38AFC6210FE46B00971CD0 /* ImageViewVC.swift in Sources */,
 				6B7FC7DC211BC9F1006439B0 /* SwitchVC.swift in Sources */,
 				6B7FC7DE211BCCAF006439B0 /* DatePickerVC.swift in Sources */,

@@ -33,6 +33,8 @@ enum ComponentList: Int {
     case UISWITCH
     case UIDATEPICKER
     case UIACTIVITYINDICATOR
+    case UISEARCHBAR
+    case UIWINDOW
     
     /* Don't use */
     case COUNT
@@ -62,6 +64,8 @@ enum ComponentList: Int {
         case .UISWITCH: return ComponentInfo(name: "UISwitch")
         case .UIDATEPICKER: return ComponentInfo(name: "UIDatePicker")
         case .UIACTIVITYINDICATOR: return ComponentInfo(name: "UIActivityIndicator")
+        case .UISEARCHBAR: return ComponentInfo(name: "UISearchBar")
+        case .UIWINDOW: return ComponentInfo(name: "UIWindow")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
