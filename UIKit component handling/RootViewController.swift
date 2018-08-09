@@ -65,6 +65,8 @@ class RootViewController: UITableViewController {
             case .UIACTIVITYINDICATOR: vc = ActivityIndicatorVC(componentName: componentName)
             case .UISEARCHBAR: vc = SearchBarVC(componentName: componentName)
             case .UIWINDOW: vc = WindowVC(componentName: componentName)
+            case .UITOOLBAR: vc = ToolBarVC(componentName: componentName)
+            case .UIPROGRESSVIEW: vc = ProgressVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
