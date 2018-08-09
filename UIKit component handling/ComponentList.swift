@@ -28,7 +28,10 @@ enum ComponentList: Int {
     case UIBARBUTTONITEM
     case UIPAGECONTROL
     case SECTIONUITABLEVIEW
-    case COUNT /* Don't use */
+    case UITEXTVIEW
+    
+    /* Don't use */
+    case COUNT
     
     func getInfo() -> ComponentInfo {
         switch self {
@@ -50,6 +53,9 @@ enum ComponentList: Int {
         case .UIBARBUTTONITEM: return ComponentInfo(name: "UIBarButtonItem")
         case .UIPAGECONTROL: return ComponentInfo(name: "UIPageControl")
         case .SECTIONUITABLEVIEW: return ComponentInfo(name: "SectionUITableView")
+        case .UITEXTVIEW: return ComponentInfo(name: "UITextView")
+            
+        /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
         }
     }

@@ -58,6 +58,10 @@ class RootViewController: UITableViewController {
             case .UIBARBUTTONITEM: vc = BarButtonItemVC()
             case .UIPAGECONTROL: vc = PageControlVC(componentName: componentName)
             case .SECTIONUITABLEVIEW: vc = SectionTableViewVC(componentName: componentName)
+            case .UITEXTVIEW: vc = TextViewVC(componentName: componentName)
+                
+                
+                /* Don't use */
             case .COUNT: return
             }
             
