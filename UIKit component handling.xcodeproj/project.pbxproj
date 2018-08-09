@@ -32,6 +32,7 @@
 		6B7FC7C321192CD6006439B0 /* PageControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7C221192CD6006439B0 /* PageControlVC.swift */; };
 		6B7FC7C5211A7297006439B0 /* SectionTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7C4211A7297006439B0 /* SectionTableViewVC.swift */; };
 		6B7FC7D8211BC2B0006439B0 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7D7211BC2B0006439B0 /* TextViewVC.swift */; };
+		6B7FC7DA211BC5DB006439B0 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -87,6 +88,7 @@
 		6B7FC7C221192CD6006439B0 /* PageControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlVC.swift; sourceTree = "<group>"; };
 		6B7FC7C4211A7297006439B0 /* SectionTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewVC.swift; sourceTree = "<group>"; };
 		6B7FC7D7211BC2B0006439B0 /* TextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
+		6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				6B7FC7C221192CD6006439B0 /* PageControlVC.swift */,
 				6B7FC7C4211A7297006439B0 /* SectionTableViewVC.swift */,
 				6B7FC7D7211BC2B0006439B0 /* TextViewVC.swift */,
+				6B7FC7D9211BC5DB006439B0 /* SliderVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				6B7FC7C121192428006439B0 /* BarButtonItemVC.swift in Sources */,
 				6B38AFC6210FE46B00971CD0 /* ImageViewVC.swift in Sources */,
 				6B7FC7B92117D6DD006439B0 /* ScrollViewVC.swift in Sources */,
+				6B7FC7DA211BC5DB006439B0 /* SliderVC.swift in Sources */,
 				6B7FC7A62113DF9A006439B0 /* FirstViewController.swift in Sources */,
 				6B7FC7A42113DA32006439B0 /* PickerViewVC.swift in Sources */,
 				6B7FC7B22116BCDD006439B0 /* TransformImageViewVC.swift in Sources */,

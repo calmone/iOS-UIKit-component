@@ -59,7 +59,7 @@ class RootViewController: UITableViewController {
             case .UIPAGECONTROL: vc = PageControlVC(componentName: componentName)
             case .SECTIONUITABLEVIEW: vc = SectionTableViewVC(componentName: componentName)
             case .UITEXTVIEW: vc = TextViewVC(componentName: componentName)
-                
+            case .UISLIDER: vc = SliderVC(componentName: componentName)
                 
                 /* Don't use */
             case .COUNT: return

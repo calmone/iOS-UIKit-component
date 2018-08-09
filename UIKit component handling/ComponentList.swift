@@ -29,6 +29,7 @@ enum ComponentList: Int {
     case UIPAGECONTROL
     case SECTIONUITABLEVIEW
     case UITEXTVIEW
+    case UISLIDER
     
     /* Don't use */
     case COUNT
@@ -54,6 +55,7 @@ enum ComponentList: Int {
         case .UIPAGECONTROL: return ComponentInfo(name: "UIPageControl")
         case .SECTIONUITABLEVIEW: return ComponentInfo(name: "SectionUITableView")
         case .UITEXTVIEW: return ComponentInfo(name: "UITextView")
+        case .UISLIDER: return ComponentInfo(name: "UISlider")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
