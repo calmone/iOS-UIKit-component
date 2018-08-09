@@ -60,8 +60,9 @@ class RootViewController: UITableViewController {
             case .SECTIONUITABLEVIEW: vc = SectionTableViewVC(componentName: componentName)
             case .UITEXTVIEW: vc = TextViewVC(componentName: componentName)
             case .UISLIDER: vc = SliderVC(componentName: componentName)
+            case .UISWITCH: vc = SwitchVC(componentName: componentName)
                 
-                /* Don't use */
+            /* Don't use */
             case .COUNT: return
             }
             
