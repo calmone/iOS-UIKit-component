@@ -41,6 +41,7 @@
 		6B7FC7E6211C2B7B006439B0 /* ToolBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7E5211C2B7B006439B0 /* ToolBarVC.swift */; };
 		6B7FC7E8211C2F00006439B0 /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7E7211C2F00006439B0 /* ProgressVC.swift */; };
 		6B7FC7EA211C3710006439B0 /* SegmentedControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7E9211C3710006439B0 /* SegmentedControlVC.swift */; };
+		6B7FC7EC211C3B2A006439B0 /* StepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7EB211C3B2A006439B0 /* StepperVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -105,6 +106,7 @@
 		6B7FC7E5211C2B7B006439B0 /* ToolBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarVC.swift; sourceTree = "<group>"; };
 		6B7FC7E7211C2F00006439B0 /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
 		6B7FC7E9211C3710006439B0 /* SegmentedControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlVC.swift; sourceTree = "<group>"; };
+		6B7FC7EB211C3B2A006439B0 /* StepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				6B7FC7E5211C2B7B006439B0 /* ToolBarVC.swift */,
 				6B7FC7E7211C2F00006439B0 /* ProgressVC.swift */,
 				6B7FC7E9211C3710006439B0 /* SegmentedControlVC.swift */,
+				6B7FC7EB211C3B2A006439B0 /* StepperVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			files = (
 				6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */,
 				6B7FC7A82113DFA5006439B0 /* SecondViewController.swift in Sources */,
+				6B7FC7EC211C3B2A006439B0 /* StepperVC.swift in Sources */,
 				6B7FC799211288B9006439B0 /* AlertVC.swift in Sources */,
 				6B7FC7C321192CD6006439B0 /* PageControlVC.swift in Sources */,
 				6B971F1C210B10AD009390B8 /* LabelVC.swift in Sources */,
