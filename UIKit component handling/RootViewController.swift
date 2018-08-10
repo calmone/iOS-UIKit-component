@@ -73,6 +73,7 @@ class RootViewController: UITableViewController {
             case .ACTIONSHEET: vc = ActionSheetVC(componentName: componentName)
             case .MENUITEM: vc = MenuItemVC(componentName: componentName)
             case .MOTIONEFFECT: vc = MotionEffectVC(componentName: componentName)
+            case .UIVISUALEFFECTVIEW: vc = BlurEffectVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

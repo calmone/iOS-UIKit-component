@@ -43,6 +43,7 @@ enum ComponentList: Int {
     case ACTIONSHEET
     case MENUITEM
     case MOTIONEFFECT
+    case UIVISUALEFFECTVIEW
     
     /* Don't use */
     case COUNT
@@ -82,6 +83,7 @@ enum ComponentList: Int {
         case .ACTIONSHEET: return ComponentInfo(name: "ActionSheet")
         case .MENUITEM: return ComponentInfo(name: "MenuItem")
         case .MOTIONEFFECT: return ComponentInfo(name: "UIMotionEffect")
+        case .UIVISUALEFFECTVIEW: return ComponentInfo(name: "UIVisualEffectView")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
