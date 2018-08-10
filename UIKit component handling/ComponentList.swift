@@ -39,6 +39,7 @@ enum ComponentList: Int {
     case UIPROGRESSVIEW
     case UISEGMENTEDCONTROL
     case UISTEPPER
+    case UINAVIGATIONBAR
     
     /* Don't use */
     case COUNT
@@ -74,6 +75,7 @@ enum ComponentList: Int {
         case .UIPROGRESSVIEW: return ComponentInfo(name: "UIProgressView")
         case .UISEGMENTEDCONTROL: return ComponentInfo(name: "UISegmentedControl")
         case .UISTEPPER: return ComponentInfo(name: "UIStepper")
+        case .UINAVIGATIONBAR: return ComponentInfo(name: "UINavigationBar")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
