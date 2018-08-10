@@ -46,6 +46,7 @@ enum ComponentList: Int {
     case UIVISUALEFFECTVIEW
     case TRANSITIONSVIEW
     case TOGGLETOUCH
+    case LIMITEDUITEXTFIELD
     
     /* Don't use */
     case COUNT
@@ -88,6 +89,7 @@ enum ComponentList: Int {
         case .UIVISUALEFFECTVIEW: return ComponentInfo(name: "UIVisualEffectView")
         case .TRANSITIONSVIEW: return ComponentInfo(name: "TransitionsView")
         case .TOGGLETOUCH: return ComponentInfo(name: "ToggleTouchEvent")
+        case .LIMITEDUITEXTFIELD: return ComponentInfo(name: "Limited UITextField")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
