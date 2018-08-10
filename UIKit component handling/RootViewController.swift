@@ -72,6 +72,7 @@ class RootViewController: UITableViewController {
             case .UINAVIGATIONBAR: vc = FirstNavigationVC()
             case .ACTIONSHEET: vc = ActionSheetVC(componentName: componentName)
             case .MENUITEM: vc = MenuItemVC(componentName: componentName)
+            case .MOTIONEFFECT: vc = MotionEffectVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

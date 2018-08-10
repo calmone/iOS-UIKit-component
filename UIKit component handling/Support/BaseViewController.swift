@@ -44,7 +44,8 @@ class BaseViewController: UIViewController {
     
     init(componentName: String) {
         super.init(nibName: nil, bundle: nil)
-        self.title = componentName
+//        self.title = componentName
+        self.navigationItem.prompt = componentName
 //        self.componentName = componentName
     }
     
