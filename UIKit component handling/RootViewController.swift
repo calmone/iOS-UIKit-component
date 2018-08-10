@@ -75,6 +75,7 @@ class RootViewController: UITableViewController {
             case .MOTIONEFFECT: vc = MotionEffectVC(componentName: componentName)
             case .UIVISUALEFFECTVIEW: vc = BlurEffectVC(componentName: componentName)
             case .TRANSITIONSVIEW: vc = TransitionsViewVC(componentName: componentName)
+            case .TOGGLETOUCH: vc = ToggleTouchVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

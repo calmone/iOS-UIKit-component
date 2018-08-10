@@ -45,6 +45,7 @@ enum ComponentList: Int {
     case MOTIONEFFECT
     case UIVISUALEFFECTVIEW
     case TRANSITIONSVIEW
+    case TOGGLETOUCH
     
     /* Don't use */
     case COUNT
@@ -86,6 +87,7 @@ enum ComponentList: Int {
         case .MOTIONEFFECT: return ComponentInfo(name: "UIMotionEffect")
         case .UIVISUALEFFECTVIEW: return ComponentInfo(name: "UIVisualEffectView")
         case .TRANSITIONSVIEW: return ComponentInfo(name: "TransitionsView")
+        case .TOGGLETOUCH: return ComponentInfo(name: "ToggleTouchEvent")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
