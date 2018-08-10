@@ -59,4 +59,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         vc.present(alert, animated: true, completion: nil)
     }
     
+    // Add ActionSheet display with UIAlertController on UIViewController
+    func showActionSheetAlert(vc: UIViewController, title: String, message: String, actions: [UIAlertAction]) {
+        // Create a UIAlertController.
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.actionSheet)
+        
+        // Add action.
+        for action in actions {
+            alert.addAction(action)
+        }
+        
+        // Activate UIAlert.
+        vc.present(alert, animated: true, completion: nil)
+    }
+    
 }

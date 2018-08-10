@@ -70,6 +70,8 @@ class RootViewController: UITableViewController {
             case .UISEGMENTEDCONTROL: vc = SegmentedControlVC(componentName: componentName)
             case .UISTEPPER: vc = StepperVC(componentName: componentName)
             case .UINAVIGATIONBAR: vc = FirstNavigationVC()
+            case .ACTIONSHEET: vc = ActionSheetVC(componentName: componentName)
+            case .MENUITEM: vc = MenuItemVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
