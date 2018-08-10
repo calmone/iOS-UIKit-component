@@ -74,6 +74,7 @@ class RootViewController: UITableViewController {
             case .MENUITEM: vc = MenuItemVC(componentName: componentName)
             case .MOTIONEFFECT: vc = MotionEffectVC(componentName: componentName)
             case .UIVISUALEFFECTVIEW: vc = BlurEffectVC(componentName: componentName)
+            case .TRANSITIONSVIEW: vc = TransitionsViewVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
