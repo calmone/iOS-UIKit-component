@@ -64,7 +64,7 @@ class WindowVC: BaseViewController {
         let iv = UIImageView(image: self.image)
         // Calculate the scale of the image.
         let scale = self.view.frame.width / self.image.size.width
-        iv.frame = CGRect(x: 0, y: 0, width: self.image.size.width*scale, height: self.image.size.height*scale)
+        iv.frame = CGRect(x: 0, y: 50, width: self.image.size.width*scale, height: self.image.size.height*scale)
         return iv
     }()
     

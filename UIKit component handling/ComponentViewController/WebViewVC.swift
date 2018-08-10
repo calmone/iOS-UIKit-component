@@ -21,7 +21,7 @@ class WebViewVC: BaseViewController, UIWebViewDelegate {
         webView.frame = self.view.bounds
         
         // Set the URL.
-        let url: URL = URL(string: "https://medium.com/@calmone91")!
+        let url: URL = URL(string: "https://medium.com/@calmone")!
         
         // Issue a rev.
         let request: NSURLRequest = NSURLRequest(url: url)

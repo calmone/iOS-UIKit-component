@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Set the controller's title.
-        self.title = "Second View"
+        self.navigationItem.prompt = "Second View"
         
         // Set the background color of the view to Cyan.
         self.view.backgroundColor = .green

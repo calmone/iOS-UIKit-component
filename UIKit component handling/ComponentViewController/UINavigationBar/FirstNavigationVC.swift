@@ -47,7 +47,7 @@ class FirstNavigationVC: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         
         // Set the title.
-        self.navigationItem.title = "Title"
+        self.navigationItem.title = "First View"
         
         // Set the prompt.
         self.navigationItem.prompt = "Prompt"

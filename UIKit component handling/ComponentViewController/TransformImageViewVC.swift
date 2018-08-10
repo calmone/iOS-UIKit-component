@@ -12,14 +12,14 @@ class TransformImageViewVC: BaseViewController {
     
     // Set the image.
     let image: UIImage = UIImage(named: "apple.png")!
-    let imageWidth: CGFloat = 300
-    let imageHeight: CGFloat = 100
+    let imageWidth: CGFloat = 200
+    let imageHeight: CGFloat = 50
     
     lazy var scaleDownImageView: UIImageView = {
         // Reduce the image (0.5 times)
         // Set the coordinates to display.
         let downPosX: CGFloat = (self.view.bounds.width - self.imageWidth) / 2
-        let downPosY: CGFloat = 50
+        let downPosY: CGFloat = 150
         
         // Generate UIImageView for display.
         let imageView: UIImageView = UIImageView(frame:  CGRect(x: downPosX, y: downPosY, width: self.imageWidth, height: self.imageHeight))
@@ -37,7 +37,7 @@ class TransformImageViewVC: BaseViewController {
         // Enlarge the image (1.2 times)
         // Set the coordinates to display.
         let upPosX: CGFloat = (self.view.bounds.width - self.imageWidth) / 2
-        let upPosY: CGFloat = 150
+        let upPosY: CGFloat = 250
         
         // Generate UIImageView for display.
         let imageView: UIImageView = UIImageView(frame:  CGRect(x: upPosX, y: upPosY, width: self.imageWidth, height: self.imageHeight))
@@ -55,7 +55,7 @@ class TransformImageViewVC: BaseViewController {
         // Rotate the image.
         // Set the coordinates to display.
         let rotatePosX: CGFloat = (self.view.bounds.width - self.imageWidth) / 2
-        let rotatePosY: CGFloat = 350
+        let rotatePosY: CGFloat = 450
         
         // Generate UIImageView for display.
         let imageView: UIImageView = UIImageView(frame: CGRect(x: rotatePosX, y: rotatePosY, width: self.imageWidth, height: self.imageHeight))

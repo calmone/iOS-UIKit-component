@@ -33,7 +33,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Set the controller's title.
-        self.title = "Fisrt View"
+        self.navigationItem.prompt = "Fisrt View"
         
         // Set the background color of the view to Cyan.
         self.view.backgroundColor = .orange

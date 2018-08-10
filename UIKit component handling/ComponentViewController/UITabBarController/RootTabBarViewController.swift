@@ -16,7 +16,7 @@ class RootTabBarViewController: UITabBarController {
         // Do any additional setup after loading the view.
         
         // Set the controller's title.
-        self.title = "UITabBarController"
+        self.navigationItem.prompt = "UITabBarController"
     }
 
     override func didReceiveMemoryWarning() {

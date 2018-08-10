@@ -13,7 +13,7 @@ class SwitchVC: BaseViewController {
     lazy var label: UILabel = {
         // Create a label to display On / Off.
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
-        label.backgroundColor = UIColor.orange
+        label.backgroundColor = UIColor.gray
         label.layer.masksToBounds = true
         label.layer.cornerRadius = 75.0
         label.textColor = UIColor.white

@@ -22,7 +22,7 @@ class DatePickerVC: BaseViewController {
     
     lazy var datePicker: UIDatePicker = {
         // Set datePicker (default is the position at the top of the screen).
-        let datePicker = UIDatePicker(frame: CGRect(x: 0, y: 50, width: self.view.frame.width, height: 200))
+        let datePicker = UIDatePicker(frame: CGRect(x: 0, y: 150, width: self.view.frame.width, height: 200))
         datePicker.timeZone = NSTimeZone.local
         datePicker.backgroundColor = UIColor.white
         datePicker.layer.cornerRadius = 5.0

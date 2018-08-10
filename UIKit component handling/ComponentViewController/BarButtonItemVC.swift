@@ -45,7 +45,7 @@ class BarButtonItemVC: UIViewController {
         self.view.backgroundColor = .green
         
         // Set the title of NavigationController.
-        self.title = "navigationVC"
+        self.navigationItem.prompt = "navigationVC"
         
         // Set it to the left of the navigation bar.
         self.navigationItem.leftBarButtonItem = self.leftButton
