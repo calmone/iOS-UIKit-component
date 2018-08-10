@@ -47,6 +47,7 @@ enum ComponentList: Int {
     case TRANSITIONSVIEW
     case TOGGLETOUCH
     case LIMITEDUITEXTFIELD
+    case PASSWORDUITEXTFIELD
     
     /* Don't use */
     case COUNT
@@ -90,6 +91,7 @@ enum ComponentList: Int {
         case .TRANSITIONSVIEW: return ComponentInfo(name: "TransitionsView")
         case .TOGGLETOUCH: return ComponentInfo(name: "ToggleTouchEvent")
         case .LIMITEDUITEXTFIELD: return ComponentInfo(name: "Limited UITextField")
+        case .PASSWORDUITEXTFIELD: return ComponentInfo(name: "Password UITextField")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

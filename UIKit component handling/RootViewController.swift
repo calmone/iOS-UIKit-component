@@ -77,6 +77,7 @@ class RootViewController: UITableViewController {
             case .TRANSITIONSVIEW: vc = TransitionsViewVC(componentName: componentName)
             case .TOGGLETOUCH: vc = ToggleTouchVC(componentName: componentName)
             case .LIMITEDUITEXTFIELD: vc = LimitedTextFieldVC(componentName: componentName)
+            case .PASSWORDUITEXTFIELD: vc = PasswordTextFieldVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

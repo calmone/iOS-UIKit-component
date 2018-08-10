@@ -51,6 +51,7 @@
 		6B7FC7FB211D5434006439B0 /* TransitionsViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7FA211D5434006439B0 /* TransitionsViewVC.swift */; };
 		6B7FC7FF211DD6A9006439B0 /* ToggleTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC7FE211DD6A9006439B0 /* ToggleTouchVC.swift */; };
 		6B7FC801211DDB67006439B0 /* LimitedTextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC800211DDB67006439B0 /* LimitedTextFieldVC.swift */; };
+		6B7FC803211DDEEF006439B0 /* PasswordTextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC802211DDEEF006439B0 /* PasswordTextFieldVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -125,6 +126,7 @@
 		6B7FC7FA211D5434006439B0 /* TransitionsViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsViewVC.swift; sourceTree = "<group>"; };
 		6B7FC7FE211DD6A9006439B0 /* ToggleTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTouchVC.swift; sourceTree = "<group>"; };
 		6B7FC800211DDB67006439B0 /* LimitedTextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedTextFieldVC.swift; sourceTree = "<group>"; };
+		6B7FC802211DDEEF006439B0 /* PasswordTextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				6B7FC7FA211D5434006439B0 /* TransitionsViewVC.swift */,
 				6B7FC7FE211DD6A9006439B0 /* ToggleTouchVC.swift */,
 				6B7FC800211DDB67006439B0 /* LimitedTextFieldVC.swift */,
+				6B7FC802211DDEEF006439B0 /* PasswordTextFieldVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				6B7FC7C5211A7297006439B0 /* SectionTableViewVC.swift in Sources */,
 				6B7FC7AE2113E4D8006439B0 /* SecondTabBarViewController.swift in Sources */,
 				6B7FC7F1211D1578006439B0 /* SecondNavigationVC.swift in Sources */,
+				6B7FC803211DDEEF006439B0 /* PasswordTextFieldVC.swift in Sources */,
 				6B7FC7B52117D1D4006439B0 /* PushFirstVC.swift in Sources */,
 				6B971EEE210AFF63009390B8 /* UIKit_component_handling.xcdatamodeld in Sources */,
 				6B38AF5C210B51D400971CD0 /* ComponentList.swift in Sources */,
