@@ -49,6 +49,7 @@ enum ComponentList: Int {
     case LIMITEDUITEXTFIELD
     case PASSWORDUITEXTFIELD
     case GESTURE
+    case PASSWORDALERT
     
     /* Don't use */
     case COUNT
@@ -94,6 +95,7 @@ enum ComponentList: Int {
         case .LIMITEDUITEXTFIELD: return ComponentInfo(name: "Limited UITextField")
         case .PASSWORDUITEXTFIELD: return ComponentInfo(name: "Password UITextField")
         case .GESTURE: return ComponentInfo(name: "GestureRecognizer")
+        case .PASSWORDALERT: return ComponentInfo(name: "Passwrod UIAlertVC")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
