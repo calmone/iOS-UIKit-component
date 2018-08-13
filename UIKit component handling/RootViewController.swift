@@ -80,6 +80,7 @@ class RootViewController: UITableViewController {
             case .PASSWORDUITEXTFIELD: vc = PasswordTextFieldVC(componentName: componentName)
             case .GESTURE: vc = GestureVC(componentName: componentName)
             case .PASSWORDALERT: vc = PasswordAlertVC(componentName: componentName)
+            case .CHARACTERLIMITALERT: vc = CharacterLimitAlertVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
