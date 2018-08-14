@@ -60,6 +60,7 @@
 		6B7FC81B2122621D006439B0 /* ExtendingButtonTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC81A2122621D006439B0 /* ExtendingButtonTableViewVC.swift */; };
 		6B7FC81D2122661E006439B0 /* SlideTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC81C2122661E006439B0 /* SlideTableViewVC.swift */; };
 		6B7FC81F212287F1006439B0 /* SynchronizeScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC81E212287F1006439B0 /* SynchronizeScrollViewVC.swift */; };
+		6B7FC82121228EBC006439B0 /* AnimateButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC82021228EBC006439B0 /* AnimateButtonVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -143,6 +144,7 @@
 		6B7FC81A2122621D006439B0 /* ExtendingButtonTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendingButtonTableViewVC.swift; sourceTree = "<group>"; };
 		6B7FC81C2122661E006439B0 /* SlideTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTableViewVC.swift; sourceTree = "<group>"; };
 		6B7FC81E212287F1006439B0 /* SynchronizeScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizeScrollViewVC.swift; sourceTree = "<group>"; };
+		6B7FC82021228EBC006439B0 /* AnimateButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateButtonVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				6B7FC81A2122621D006439B0 /* ExtendingButtonTableViewVC.swift */,
 				6B7FC81C2122661E006439B0 /* SlideTableViewVC.swift */,
 				6B7FC81E212287F1006439B0 /* SynchronizeScrollViewVC.swift */,
+				6B7FC82021228EBC006439B0 /* AnimateButtonVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				6B7FC7C5211A7297006439B0 /* SectionTableViewVC.swift in Sources */,
 				6B7FC81F212287F1006439B0 /* SynchronizeScrollViewVC.swift in Sources */,
 				6B7FC7AE2113E4D8006439B0 /* SecondTabBarViewController.swift in Sources */,
+				6B7FC82121228EBC006439B0 /* AnimateButtonVC.swift in Sources */,
 				6B7FC7F1211D1578006439B0 /* SecondNavigationVC.swift in Sources */,
 				6B7FC803211DDEEF006439B0 /* PasswordTextFieldVC.swift in Sources */,
 				6B7FC7B52117D1D4006439B0 /* PushFirstVC.swift in Sources */,

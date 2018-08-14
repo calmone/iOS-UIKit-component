@@ -56,6 +56,7 @@ enum ComponentList: Int {
     case EXTENDINGBUTTONTABLEVIEW
     case SLIDETABLEVIEW
     case SYNCHRONIZESCROLLVIEW
+    case ANIMATEBUTTON
     
     /* Don't use */
     case COUNT
@@ -108,6 +109,7 @@ enum ComponentList: Int {
         case .EXTENDINGBUTTONTABLEVIEW: return ComponentInfo(name: "Extending button TableView")
         case .SLIDETABLEVIEW: return ComponentInfo(name: "Slide TableView")
         case .SYNCHRONIZESCROLLVIEW: return ComponentInfo(name: "Synchronize UIScrollView")
+        case .ANIMATEBUTTON: return ComponentInfo(name: "Animate Button")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
