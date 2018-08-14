@@ -54,6 +54,8 @@ enum ComponentList: Int {
     case EFFECTPROCESS
     case SECONDSCREEN
     case EXTENDINGBUTTONTABLEVIEW
+    case SLIDETABLEVIEW
+    case SYNCHRONIZESCROLLVIEW
     
     /* Don't use */
     case COUNT
@@ -104,6 +106,8 @@ enum ComponentList: Int {
         case .EFFECTPROCESS: return ComponentInfo(name: "Effect processing")
         case .SECONDSCREEN: return ComponentInfo(name: "Second screen")
         case .EXTENDINGBUTTONTABLEVIEW: return ComponentInfo(name: "Extending button TableView")
+        case .SLIDETABLEVIEW: return ComponentInfo(name: "Slide TableView")
+        case .SYNCHRONIZESCROLLVIEW: return ComponentInfo(name: "Synchronize UIScrollView")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

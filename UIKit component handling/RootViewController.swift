@@ -84,6 +84,8 @@ class RootViewController: UITableViewController {
             case .EFFECTPROCESS: vc = EffectProcessVC(componentName: componentName)
             case .SECONDSCREEN: vc = SecondScreenVC(componentName: componentName)
             case .EXTENDINGBUTTONTABLEVIEW: vc = ExtendingButtonTableViewVC(componentName: componentName)
+            case .SLIDETABLEVIEW: vc = SlideTableViewVC(componentName: componentName)
+            case .SYNCHRONIZESCROLLVIEW: vc = SynchronizeScrollViewVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
