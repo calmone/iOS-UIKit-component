@@ -87,6 +87,8 @@ class RootViewController: UITableViewController {
             case .SLIDETABLEVIEW: vc = SlideTableViewVC(componentName: componentName)
             case .SYNCHRONIZESCROLLVIEW: vc = SynchronizeScrollViewVC(componentName: componentName)
             case .ANIMATEBUTTON: vc = AnimateButtonVC(componentName: componentName)
+            case .CUSTOMIZEBUTTON: vc = CustomizeButtonVC(componentName: componentName)
+            case .DELETEPARTS: vc = DeletePartsVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
