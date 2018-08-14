@@ -59,6 +59,7 @@ enum ComponentList: Int {
     case ANIMATEBUTTON
     case CUSTOMIZEBUTTON
     case DELETEPARTS
+    case ADDDELETETABLEVIEW
     
     /* Don't use */
     case COUNT
@@ -114,6 +115,7 @@ enum ComponentList: Int {
         case .ANIMATEBUTTON: return ComponentInfo(name: "Animate Button")
         case .CUSTOMIZEBUTTON: return ComponentInfo(name: "Customize Button")
         case .DELETEPARTS: return ComponentInfo(name: "Delete UI Parts")
+        case .ADDDELETETABLEVIEW: return ComponentInfo(name: "Add/delete UITableView")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

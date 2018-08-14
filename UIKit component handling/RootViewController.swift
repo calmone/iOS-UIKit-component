@@ -89,6 +89,7 @@ class RootViewController: UITableViewController {
             case .ANIMATEBUTTON: vc = AnimateButtonVC(componentName: componentName)
             case .CUSTOMIZEBUTTON: vc = CustomizeButtonVC(componentName: componentName)
             case .DELETEPARTS: vc = DeletePartsVC(componentName: componentName)
+            case .ADDDELETETABLEVIEW: vc = AddDeleteTableViewVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
