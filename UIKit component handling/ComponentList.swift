@@ -52,6 +52,8 @@ enum ComponentList: Int {
     case PASSWORDALERT
     case CHARACTERLIMITALERT
     case EFFECTPROCESS
+    case SECONDSCREEN
+    case EXTENDINGBUTTONTABLEVIEW
     
     /* Don't use */
     case COUNT
@@ -100,6 +102,8 @@ enum ComponentList: Int {
         case .PASSWORDALERT: return ComponentInfo(name: "Passwrod UIAlertVC")
         case .CHARACTERLIMITALERT: return ComponentInfo(name: "Character limit UIAlertVC")
         case .EFFECTPROCESS: return ComponentInfo(name: "Effect processing")
+        case .SECONDSCREEN: return ComponentInfo(name: "Second screen")
+        case .EXTENDINGBUTTONTABLEVIEW: return ComponentInfo(name: "Extending button TableView")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

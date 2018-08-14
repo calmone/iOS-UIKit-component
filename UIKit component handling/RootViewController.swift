@@ -82,6 +82,8 @@ class RootViewController: UITableViewController {
             case .PASSWORDALERT: vc = PasswordAlertVC(componentName: componentName)
             case .CHARACTERLIMITALERT: vc = CharacterLimitAlertVC(componentName: componentName)
             case .EFFECTPROCESS: vc = EffectProcessVC(componentName: componentName)
+            case .SECONDSCREEN: vc = SecondScreenVC(componentName: componentName)
+            case .EXTENDINGBUTTONTABLEVIEW: vc = ExtendingButtonTableViewVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
