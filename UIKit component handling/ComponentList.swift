@@ -51,6 +51,7 @@ enum ComponentList: Int {
     case GESTURE
     case PASSWORDALERT
     case CHARACTERLIMITALERT
+    case EFFECTPROCESS
     
     /* Don't use */
     case COUNT
@@ -98,6 +99,7 @@ enum ComponentList: Int {
         case .GESTURE: return ComponentInfo(name: "GestureRecognizer")
         case .PASSWORDALERT: return ComponentInfo(name: "Passwrod UIAlertVC")
         case .CHARACTERLIMITALERT: return ComponentInfo(name: "Character limit UIAlertVC")
+        case .EFFECTPROCESS: return ComponentInfo(name: "Effect processing")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

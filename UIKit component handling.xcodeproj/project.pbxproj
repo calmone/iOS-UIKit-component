@@ -55,6 +55,7 @@
 		6B7FC8052120421A006439B0 /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC8042120421A006439B0 /* GestureVC.swift */; };
 		6B7FC809212110DF006439B0 /* PasswordAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC808212110DF006439B0 /* PasswordAlertVC.swift */; };
 		6B7FC80B21211879006439B0 /* CharacterLimitAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC80A21211879006439B0 /* CharacterLimitAlertVC.swift */; };
+		6B7FC81721225CD7006439B0 /* EffectProcessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC81621225CD7006439B0 /* EffectProcessVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -133,6 +134,7 @@
 		6B7FC8042120421A006439B0 /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
 		6B7FC808212110DF006439B0 /* PasswordAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordAlertVC.swift; sourceTree = "<group>"; };
 		6B7FC80A21211879006439B0 /* CharacterLimitAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterLimitAlertVC.swift; sourceTree = "<group>"; };
+		6B7FC81621225CD7006439B0 /* EffectProcessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectProcessVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				6B7FC8042120421A006439B0 /* GestureVC.swift */,
 				6B7FC808212110DF006439B0 /* PasswordAlertVC.swift */,
 				6B7FC80A21211879006439B0 /* CharacterLimitAlertVC.swift */,
+				6B7FC81621225CD7006439B0 /* EffectProcessVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */,
 				6B7FC7972111A07E006439B0 /* WebViewVC.swift in Sources */,
 				6B7FC7F5211D1EA6006439B0 /* MenuItemVC.swift in Sources */,
+				6B7FC81721225CD7006439B0 /* EffectProcessVC.swift in Sources */,
 				6B7FC8052120421A006439B0 /* GestureVC.swift in Sources */,
 				6B7FC7B02113E4EF006439B0 /* RootTabBarViewController.swift in Sources */,
 				6B7FC7EA211C3710006439B0 /* SegmentedControlVC.swift in Sources */,
@@ -683,7 +687,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74C7J4KTMM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/UIKit component handling/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -702,7 +706,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74C7J4KTMM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/UIKit component handling/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -81,6 +81,7 @@ class RootViewController: UITableViewController {
             case .GESTURE: vc = GestureVC(componentName: componentName)
             case .PASSWORDALERT: vc = PasswordAlertVC(componentName: componentName)
             case .CHARACTERLIMITALERT: vc = CharacterLimitAlertVC(componentName: componentName)
+            case .EFFECTPROCESS: vc = EffectProcessVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
