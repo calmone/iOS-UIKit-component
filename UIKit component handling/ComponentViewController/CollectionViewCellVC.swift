@@ -75,7 +75,7 @@ extension CollectionViewCellVC: UICollectionViewDelegate, UICollectionViewDataSo
     
 }
 
-class CustomUICollectionViewCell : UICollectionViewCell {
+fileprivate class CustomUICollectionViewCell : UICollectionViewCell {
     
     var textLabel : UILabel?
     

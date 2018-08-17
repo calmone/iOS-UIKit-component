@@ -90,6 +90,10 @@ class RootViewController: UITableViewController {
             case .CUSTOMIZEBUTTON: vc = CustomizeButtonVC(componentName: componentName)
             case .DELETEPARTS: vc = DeletePartsVC(componentName: componentName)
             case .ADDDELETETABLEVIEW: vc = AddDeleteTableViewVC(componentName: componentName)
+            case .BEZIERPATH: vc = BezierPathVC(componentName: componentName)
+            case .UICOLLECTIONVIEW: vc = CollectionViewVC(componentName: componentName)
+            case .UICOLLECTIONVIEWCELL: vc = CollectionViewCellVC(componentName: componentName)
+            case .UICOLLECTIONVIEWSECTION: vc = SectionCollectionViewVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return

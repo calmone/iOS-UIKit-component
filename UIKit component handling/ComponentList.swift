@@ -60,6 +60,10 @@ enum ComponentList: Int {
     case CUSTOMIZEBUTTON
     case DELETEPARTS
     case ADDDELETETABLEVIEW
+    case BEZIERPATH
+    case UICOLLECTIONVIEW
+    case UICOLLECTIONVIEWCELL
+    case UICOLLECTIONVIEWSECTION
     
     /* Don't use */
     case COUNT
@@ -116,6 +120,10 @@ enum ComponentList: Int {
         case .CUSTOMIZEBUTTON: return ComponentInfo(name: "Customize Button")
         case .DELETEPARTS: return ComponentInfo(name: "Delete UI Parts")
         case .ADDDELETETABLEVIEW: return ComponentInfo(name: "Add/delete UITableView")
+        case .BEZIERPATH: return ComponentInfo(name: "UIBezierPath")
+        case .UICOLLECTIONVIEW: return ComponentInfo(name: "UICollectionView")
+        case .UICOLLECTIONVIEWCELL: return ComponentInfo(name: "UICollectionView Customize")
+        case .UICOLLECTIONVIEWSECTION: return ComponentInfo(name: "UICollectionView Section")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

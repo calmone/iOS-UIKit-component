@@ -8,12 +8,25 @@
 
 import UIKit
 
-class BezierPathVC: UIViewController {
+class BezierPathVC: BaseViewController {
+    
+    lazy var segcon: UISegmentedControl = {
+        // Generate SegmentedController.
+        let sc = UISegmentedControl(items: ["Circle", "Rectangle", "Line"])
+        sc.layer.position = CGPoint(x: self.view.frame.width/2, y: self.view.frame.height - 50)
+        sc.tintColor = UIColor.blue
+        sc.addTarget(self, action: #selector(changedValue(sender:)), for: UIControlEvents.valueChanged)
+        
+        return sc
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // Add segmentedController on view
+        self.view.addSubview(segcon)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +34,24 @@ class BezierPathVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // A method called when the value of SegmentedController changes.
+    @objc func changedValue(sender: UISegmentedControl) {
+        var drawView: UIView!
+        
+        // Create an instance of each class according to the value of SegmentedController.
+        switch(sender.selectedSegmentIndex) {
+        case 0: drawView = DrawCircleView(frame: CGRect(x: 0, y: 100, width: 300, height: 300))
+        case 1: drawView = DrawRectangleView(frame: CGRect(x: 0, y: 100, width: 300, height: 300))
+        case 2: drawView = DrawLineView(frame: CGRect(x:0, y: 100, width: 300, height: 300))
+        default: print("error")
+        }
+        
+        // Set the center of drawing for drawing.
+        drawView.center = CGPoint(x: self.view.frame.width/2, y: 300)
+        drawView.backgroundColor = UIColor.white
+        
+        // Added drawing view to view.
+        self.view.addSubview(drawView)
     }
-    */
 
 }
