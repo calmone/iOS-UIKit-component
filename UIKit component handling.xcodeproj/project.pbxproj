@@ -71,6 +71,7 @@
 		6B7FC83221267FF0006439B0 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC83121267FF0006439B0 /* CollectionViewVC.swift */; };
 		6B7FC834212682A8006439B0 /* CollectionViewCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC833212682A8006439B0 /* CollectionViewCellVC.swift */; };
 		6B7FC83621268818006439B0 /* SectionCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC83521268818006439B0 /* SectionCollectionViewVC.swift */; };
+		6B7FC83821268C95006439B0 /* ImagePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC83721268C95006439B0 /* ImagePickerVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -165,6 +166,8 @@
 		6B7FC83121267FF0006439B0 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 		6B7FC833212682A8006439B0 /* CollectionViewCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellVC.swift; sourceTree = "<group>"; };
 		6B7FC83521268818006439B0 /* SectionCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewVC.swift; sourceTree = "<group>"; };
+		6B7FC83721268C95006439B0 /* ImagePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerVC.swift; sourceTree = "<group>"; };
+		6B7FC83C2126940B006439B0 /* UIKit component handling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "UIKit component handling.entitlements"; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -256,6 +259,13 @@
 			path = UIBezierPath;
 			sourceTree = "<group>";
 		};
+		6B7FC83D2126940B006439B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B971ED9210AFF63009390B8 = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +273,7 @@
 				6B971EFC210AFF64009390B8 /* UIKit component handlingTests */,
 				6B971F07210AFF64009390B8 /* UIKit component handlingUITests */,
 				6B971EE3210AFF63009390B8 /* Products */,
+				6B7FC83D2126940B006439B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +290,7 @@
 		6B971EE4210AFF63009390B8 /* UIKit component handling */ = {
 			isa = PBXGroup;
 			children = (
+				6B7FC83C2126940B006439B0 /* UIKit component handling.entitlements */,
 				6B971F18210B0575009390B8 /* Support */,
 				6B971F17210B056F009390B8 /* ComponentViewController */,
 				6B971EE7210AFF63009390B8 /* RootViewController.swift */,
@@ -363,6 +375,7 @@
 				6B7FC83121267FF0006439B0 /* CollectionViewVC.swift */,
 				6B7FC833212682A8006439B0 /* CollectionViewCellVC.swift */,
 				6B7FC83521268818006439B0 /* SectionCollectionViewVC.swift */,
+				6B7FC83721268C95006439B0 /* ImagePickerVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -450,6 +463,14 @@
 				TargetAttributes = {
 					6B971EE1210AFF63009390B8 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					6B971EF8210AFF64009390B8 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -515,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7FC83821268C95006439B0 /* ImagePickerVC.swift in Sources */,
 				6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */,
 				6B7FC7A82113DFA5006439B0 /* SecondViewController.swift in Sources */,
 				6B7FC7EC211C3B2A006439B0 /* StepperVC.swift in Sources */,

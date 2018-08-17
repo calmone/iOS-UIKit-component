@@ -64,6 +64,7 @@ enum ComponentList: Int {
     case UICOLLECTIONVIEW
     case UICOLLECTIONVIEWCELL
     case UICOLLECTIONVIEWSECTION
+    case UIIMAGEPICKER
     
     /* Don't use */
     case COUNT
@@ -124,6 +125,7 @@ enum ComponentList: Int {
         case .UICOLLECTIONVIEW: return ComponentInfo(name: "UICollectionView")
         case .UICOLLECTIONVIEWCELL: return ComponentInfo(name: "UICollectionView Customize")
         case .UICOLLECTIONVIEWSECTION: return ComponentInfo(name: "UICollectionView Section")
+        case .UIIMAGEPICKER: return ComponentInfo(name: "UIImagePickerController")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

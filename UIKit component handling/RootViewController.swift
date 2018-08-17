@@ -94,6 +94,7 @@ class RootViewController: UITableViewController {
             case .UICOLLECTIONVIEW: vc = CollectionViewVC(componentName: componentName)
             case .UICOLLECTIONVIEWCELL: vc = CollectionViewCellVC(componentName: componentName)
             case .UICOLLECTIONVIEWSECTION: vc = SectionCollectionViewVC(componentName: componentName)
+            case .UIIMAGEPICKER: vc = ImagePickerVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
