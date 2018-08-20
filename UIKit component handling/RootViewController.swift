@@ -96,6 +96,8 @@ class RootViewController: UITableViewController {
             case .UICOLLECTIONVIEWSECTION: vc = SectionCollectionViewVC(componentName: componentName)
             case .UIIMAGEPICKER: vc = ImagePickerVC(componentName: componentName)
             case .TRANSPARENCYIMAGE: vc = TransparencyImageVC(componentName: componentName)
+            case .RESIZEIMAGE: vc = ResizeImageVC(componentName: componentName)
+            case .COMPOSINGIMAGE: vc = ComposingImageVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
