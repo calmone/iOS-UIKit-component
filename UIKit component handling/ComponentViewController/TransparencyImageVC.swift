@@ -35,7 +35,7 @@ class TransparencyImageVC: BaseViewController {
     
 }
 
-extension UIImage {
+fileprivate extension UIImage {
     
     // Create a class method of Resize.
     func ResizeUIImage(width: CGFloat, height: CGFloat) -> UIImage! {
@@ -54,4 +54,5 @@ extension UIImage {
         
         return newImage
     }
+    
 }
