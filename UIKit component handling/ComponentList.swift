@@ -69,6 +69,7 @@ enum ComponentList: Int {
     case RESIZEIMAGE
     case COMPOSINGIMAGE
     case SCREENSHOT
+    case POPOVER
     
     /* Don't use */
     case COUNT
@@ -134,6 +135,7 @@ enum ComponentList: Int {
         case .RESIZEIMAGE: return ComponentInfo(name: "Resize UIImage")
         case .COMPOSINGIMAGE: return ComponentInfo(name: "Composing UIImage")
         case .SCREENSHOT: return ComponentInfo(name: "Screenshots")
+        case .POPOVER: return ComponentInfo(name: "UIPopoverController")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

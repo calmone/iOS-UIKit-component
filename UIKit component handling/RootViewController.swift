@@ -99,6 +99,7 @@ class RootViewController: UITableViewController {
             case .RESIZEIMAGE: vc = ResizeImageVC(componentName: componentName)
             case .COMPOSINGIMAGE: vc = ComposingImageVC(componentName: componentName)
             case .SCREENSHOT: vc = ScreenshotVC(componentName: componentName)
+            case .POPOVER: vc = PopoverVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
