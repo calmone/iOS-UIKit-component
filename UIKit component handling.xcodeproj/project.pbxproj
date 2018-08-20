@@ -75,6 +75,7 @@
 		6B7FC8412126A2DD006439B0 /* TransparencyImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC8402126A2DD006439B0 /* TransparencyImageVC.swift */; };
 		6B7FC8432126C179006439B0 /* ResizeImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC8422126C179006439B0 /* ResizeImageVC.swift */; };
 		6B7FC845212A766B006439B0 /* ComposingImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC844212A766B006439B0 /* ComposingImageVC.swift */; };
+		6B7FC847212A7B6F006439B0 /* ScreenshotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC846212A7B6F006439B0 /* ScreenshotVC.swift */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -174,6 +175,7 @@
 		6B7FC8402126A2DD006439B0 /* TransparencyImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparencyImageVC.swift; sourceTree = "<group>"; };
 		6B7FC8422126C179006439B0 /* ResizeImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageVC.swift; sourceTree = "<group>"; };
 		6B7FC844212A766B006439B0 /* ComposingImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingImageVC.swift; sourceTree = "<group>"; };
+		6B7FC846212A7B6F006439B0 /* ScreenshotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotVC.swift; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 				6B7FC8402126A2DD006439B0 /* TransparencyImageVC.swift */,
 				6B7FC8422126C179006439B0 /* ResizeImageVC.swift */,
 				6B7FC844212A766B006439B0 /* ComposingImageVC.swift */,
+				6B7FC846212A7B6F006439B0 /* ScreenshotVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -613,6 +616,7 @@
 				6B38AFCA210FEF3200971CD0 /* FontVC.swift in Sources */,
 				6B7FC83621268818006439B0 /* SectionCollectionViewVC.swift in Sources */,
 				6B7FC80B21211879006439B0 /* CharacterLimitAlertVC.swift in Sources */,
+				6B7FC847212A7B6F006439B0 /* ScreenshotVC.swift in Sources */,
 				6B7FC7B72117D1E1006439B0 /* PushSecondVC.swift in Sources */,
 				6B7FC7FF211DD6A9006439B0 /* ToggleTouchVC.swift in Sources */,
 				6B38AF6E210E9BB200971CD0 /* TextFieldVC.swift in Sources */,

@@ -98,6 +98,7 @@ class RootViewController: UITableViewController {
             case .TRANSPARENCYIMAGE: vc = TransparencyImageVC(componentName: componentName)
             case .RESIZEIMAGE: vc = ResizeImageVC(componentName: componentName)
             case .COMPOSINGIMAGE: vc = ComposingImageVC(componentName: componentName)
+            case .SCREENSHOT: vc = ScreenshotVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
