@@ -70,6 +70,10 @@ enum ComponentList: Int {
     case COMPOSINGIMAGE
     case SCREENSHOT
     case POPOVER
+    case TEXTCHECKER
+    case ATTACHMENTVIEW
+    case GRAVITYVIEW
+    case ANIMATIONSUMMARY
     
     /* Don't use */
     case COUNT
@@ -136,6 +140,10 @@ enum ComponentList: Int {
         case .COMPOSINGIMAGE: return ComponentInfo(name: "Composing UIImage")
         case .SCREENSHOT: return ComponentInfo(name: "Screenshots")
         case .POPOVER: return ComponentInfo(name: "UIPopoverController")
+        case .TEXTCHECKER: return ComponentInfo(name: "UITextChecker")
+        case .ATTACHMENTVIEW: return ComponentInfo(name: "Attachment UIView")
+        case .GRAVITYVIEW: return ComponentInfo(name: "Gravity UIView")
+        case .ANIMATIONSUMMARY: return ComponentInfo(name: "UIView animation summary")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")
