@@ -81,6 +81,12 @@
 		6B7FC84D212BDA84006439B0 /* AttachmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC84C212BDA84006439B0 /* AttachmentVC.swift */; };
 		6B7FC84F212BDD91006439B0 /* GravityViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC84E212BDD91006439B0 /* GravityViewVC.swift */; };
 		6B7FC851212BE84B006439B0 /* AnimationSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC850212BE84B006439B0 /* AnimationSummaryVC.swift */; };
+		6B7FC853212BEEBF006439B0 /* DragViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC852212BEEBF006439B0 /* DragViewVC.swift */; };
+		6B7FC855212BF0F7006439B0 /* MultipleButtonsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC854212BF0F7006439B0 /* MultipleButtonsVC.swift */; };
+		6B7FC857212BF665006439B0 /* DisplayViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC856212BF665006439B0 /* DisplayViewVC.swift */; };
+		6B7FC859212BF96B006439B0 /* WebPdfVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC858212BF96B006439B0 /* WebPdfVC.swift */; };
+		6B7FC85B212BFE58006439B0 /* WebPdfFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FC85A212BFE58006439B0 /* WebPdfFileVC.swift */; };
+		6B7FC85D212BFF5D006439B0 /* iOS_Security_Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B7FC85C212BFF5D006439B0 /* iOS_Security_Guide.pdf */; };
 		6B971EE6210AFF63009390B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE5210AFF63009390B8 /* AppDelegate.swift */; };
 		6B971EE8210AFF63009390B8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B971EE7210AFF63009390B8 /* RootViewController.swift */; };
 		6B971EEB210AFF63009390B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B971EE9210AFF63009390B8 /* Main.storyboard */; };
@@ -186,6 +192,12 @@
 		6B7FC84C212BDA84006439B0 /* AttachmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentVC.swift; sourceTree = "<group>"; };
 		6B7FC84E212BDD91006439B0 /* GravityViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityViewVC.swift; sourceTree = "<group>"; };
 		6B7FC850212BE84B006439B0 /* AnimationSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSummaryVC.swift; sourceTree = "<group>"; };
+		6B7FC852212BEEBF006439B0 /* DragViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewVC.swift; sourceTree = "<group>"; };
+		6B7FC854212BF0F7006439B0 /* MultipleButtonsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleButtonsVC.swift; sourceTree = "<group>"; };
+		6B7FC856212BF665006439B0 /* DisplayViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewVC.swift; sourceTree = "<group>"; };
+		6B7FC858212BF96B006439B0 /* WebPdfVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPdfVC.swift; sourceTree = "<group>"; };
+		6B7FC85A212BFE58006439B0 /* WebPdfFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPdfFileVC.swift; sourceTree = "<group>"; };
+		6B7FC85C212BFF5D006439B0 /* iOS_Security_Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS_Security_Guide.pdf; sourceTree = "<group>"; };
 		6B971EE2210AFF63009390B8 /* UIKit component handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit component handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B971EE5210AFF63009390B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B971EE7210AFF63009390B8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -403,6 +415,11 @@
 				6B7FC84C212BDA84006439B0 /* AttachmentVC.swift */,
 				6B7FC84E212BDD91006439B0 /* GravityViewVC.swift */,
 				6B7FC850212BE84B006439B0 /* AnimationSummaryVC.swift */,
+				6B7FC852212BEEBF006439B0 /* DragViewVC.swift */,
+				6B7FC854212BF0F7006439B0 /* MultipleButtonsVC.swift */,
+				6B7FC856212BF665006439B0 /* DisplayViewVC.swift */,
+				6B7FC858212BF96B006439B0 /* WebPdfVC.swift */,
+				6B7FC85A212BFE58006439B0 /* WebPdfFileVC.swift */,
 			);
 			path = ComponentViewController;
 			sourceTree = "<group>";
@@ -412,6 +429,7 @@
 			children = (
 				6B38AFC7210FE5A900971CD0 /* apple.png */,
 				6B7FC7BE2117D9A1006439B0 /* vertical.jpeg */,
+				6B7FC85C212BFF5D006439B0 /* iOS_Security_Guide.pdf */,
 				6B971EE9210AFF63009390B8 /* Main.storyboard */,
 				6B971EEF210AFF64009390B8 /* Assets.xcassets */,
 				6B971EF1210AFF64009390B8 /* LaunchScreen.storyboard */,
@@ -535,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B971EF3210AFF64009390B8 /* LaunchScreen.storyboard in Resources */,
+				6B7FC85D212BFF5D006439B0 /* iOS_Security_Guide.pdf in Resources */,
 				6B7FC7BF2117D9A1006439B0 /* vertical.jpeg in Resources */,
 				6B971EF0210AFF64009390B8 /* Assets.xcassets in Resources */,
 				6B38AFC8210FE5AA00971CD0 /* apple.png in Resources */,
@@ -575,6 +594,7 @@
 				6B7FC7C5211A7297006439B0 /* SectionTableViewVC.swift in Sources */,
 				6B7FC81F212287F1006439B0 /* SynchronizeScrollViewVC.swift in Sources */,
 				6B7FC84B212B9586006439B0 /* TextCheckerVC.swift in Sources */,
+				6B7FC859212BF96B006439B0 /* WebPdfVC.swift in Sources */,
 				6B7FC8432126C179006439B0 /* ResizeImageVC.swift in Sources */,
 				6B7FC7AE2113E4D8006439B0 /* SecondTabBarViewController.swift in Sources */,
 				6B7FC82121228EBC006439B0 /* AnimateButtonVC.swift in Sources */,
@@ -598,6 +618,7 @@
 				6B7FC7EA211C3710006439B0 /* SegmentedControlVC.swift in Sources */,
 				6B7FC8252122AF9C006439B0 /* DeletePartsVC.swift in Sources */,
 				6B7FC8302122BD06006439B0 /* DrawLineView.swift in Sources */,
+				6B7FC85B212BFE58006439B0 /* WebPdfFileVC.swift in Sources */,
 				6B7FC7EF211D156F006439B0 /* FirstNavigationVC.swift in Sources */,
 				6B7FC7E6211C2B7B006439B0 /* ToolBarVC.swift in Sources */,
 				6B7FC81921225ED6006439B0 /* SecondScreenVC.swift in Sources */,
@@ -608,6 +629,7 @@
 				6B7FC7F9211D4FE0006439B0 /* BlurEffectVC.swift in Sources */,
 				6B7FC7AC2113E4CE006439B0 /* FirstTabBarViewController.swift in Sources */,
 				6B7FC84F212BDD91006439B0 /* GravityViewVC.swift in Sources */,
+				6B7FC853212BEEBF006439B0 /* DragViewVC.swift in Sources */,
 				6B7FC7E4211C24D9006439B0 /* WindowVC.swift in Sources */,
 				6B7FC81D2122661E006439B0 /* SlideTableViewVC.swift in Sources */,
 				6B7FC7C121192428006439B0 /* BarButtonItemVC.swift in Sources */,
@@ -618,6 +640,7 @@
 				6B38AFC6210FE46B00971CD0 /* ImageViewVC.swift in Sources */,
 				6B7FC7F7211D2A14006439B0 /* MotionEffectVC.swift in Sources */,
 				6B7FC7DC211BC9F1006439B0 /* SwitchVC.swift in Sources */,
+				6B7FC857212BF665006439B0 /* DisplayViewVC.swift in Sources */,
 				6B7FC845212A766B006439B0 /* ComposingImageVC.swift in Sources */,
 				6B7FC8232122945D006439B0 /* CustomizeButtonVC.swift in Sources */,
 				6B7FC84D212BDA84006439B0 /* AttachmentVC.swift in Sources */,
@@ -638,6 +661,7 @@
 				6B7FC80B21211879006439B0 /* CharacterLimitAlertVC.swift in Sources */,
 				6B7FC847212A7B6F006439B0 /* ScreenshotVC.swift in Sources */,
 				6B7FC7B72117D1E1006439B0 /* PushSecondVC.swift in Sources */,
+				6B7FC855212BF0F7006439B0 /* MultipleButtonsVC.swift in Sources */,
 				6B7FC7FF211DD6A9006439B0 /* ToggleTouchVC.swift in Sources */,
 				6B38AF6E210E9BB200971CD0 /* TextFieldVC.swift in Sources */,
 			);

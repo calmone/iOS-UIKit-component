@@ -74,6 +74,11 @@ enum ComponentList: Int {
     case ATTACHMENTVIEW
     case GRAVITYVIEW
     case ANIMATIONSUMMARY
+    case DRAGVIEW
+    case MULTIPLEBUTTONS
+    case DISPLAYVIEW
+    case PDF
+    case PDFFILE
     
     /* Don't use */
     case COUNT
@@ -144,6 +149,11 @@ enum ComponentList: Int {
         case .ATTACHMENTVIEW: return ComponentInfo(name: "Attachment UIView")
         case .GRAVITYVIEW: return ComponentInfo(name: "Gravity UIView")
         case .ANIMATIONSUMMARY: return ComponentInfo(name: "UIView animation summary")
+        case .DRAGVIEW: return ComponentInfo(name: "Dragging View")
+        case .MULTIPLEBUTTONS: return ComponentInfo(name: "Multiple buttons")
+        case .DISPLAYVIEW: return ComponentInfo(name: "Display View")
+        case .PDF: return ComponentInfo(name: "Open PDF with UIWebView")
+        case .PDFFILE: return ComponentInfo(name: "Display files with UIWebView")
             
         /* Don't use */
         case .COUNT: return ComponentInfo(name: "Count")

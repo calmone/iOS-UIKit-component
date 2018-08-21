@@ -104,6 +104,11 @@ class RootViewController: UITableViewController {
             case .ATTACHMENTVIEW: vc = AttachmentVC(componentName: componentName)
             case .GRAVITYVIEW: vc = GravityViewVC(componentName: componentName)
             case .ANIMATIONSUMMARY: vc = AnimationSummaryVC(componentName: componentName)
+            case .DRAGVIEW: vc = DragViewVC(componentName: componentName)
+            case .MULTIPLEBUTTONS: vc = MultipleButtonsVC(componentName: componentName)
+            case .DISPLAYVIEW: vc = DisplayViewVC(componentName: componentName)
+            case .PDF: vc = WebPdfVC(componentName: componentName)
+            case .PDFFILE: vc = WebPdfFileVC(componentName: componentName)
                 
             /* Don't use */
             case .COUNT: return
