@@ -5,7 +5,7 @@ Sharing the handling of components in UIKit
 # List
 - UILabel
 - UIButton
-- UIButtons (diffrent types)
+- Various UIButtons
 - UITextField
 - UIImageView
 - UIFont
@@ -20,4 +20,55 @@ Sharing the handling of components in UIKit
 - UIScrollView
 - UIBarButtonItem
 - UIPageControl
-- .... more componets comming soon!!
+- UITableView Section
+- UITextView
+- UISlider
+- UISwitch
+- UIDatePicker
+- UIActivityIndicator
+- UISearchBar
+- UIWindow
+- UIToolBar
+- UIProgressView
+- UISegmentedControl
+- UIStepper
+- UINavigationBar
+- ActionSheet
+- MenuItem
+- UIMotionEffect
+- UIVisualEffectView
+- TransitionsView
+- ToggleTouchEvent
+- Limited UITextField
+- Password UITextField
+- GestureRecognizer
+- Password UIAlertViewController
+- Character limit UIAlertViewController
+- Effect processing
+- Second screen
+- Extending button UITableView
+- Slide UITableView
+- Synchronize UIScrollView
+- Animate UIButton
+- Customize UIButton
+- Delete UI parts
+- Add/Delete UITableView
+- UIBezierPath
+- UICollectionView
+- UICollectionView Customize
+- UICollectionView Section
+- UIImagePickerController
+- Transparency of images
+- Resize UIImage
+- Composing UIImage
+- Screenshot
+- UIPopoverController
+- UITextChecker
+- Attachment UIView
+- Gravity UIView
+- UIView animation summary
+- Dragging UIView
+- Make multiple UIButtons
+- Hide/Show UIView
+- Open PDF with UIWebView
+- Open local PDF with UIWebView
