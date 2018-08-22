@@ -1,6 +1,8 @@
 # UIKit-component
 Sharing the handling of components in UIKit
 
+# Preview
+<img width="593" alt="2018-08-22 9 55 55" src="https://user-images.githubusercontent.com/25024339/44436807-2c60a500-a5f2-11e8-8324-686f214f01a0.png">
 
 # List
 - UILabel
