@@ -29,7 +29,7 @@ class RootViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ComponentList.COUNT.hashValue
+        return ComponentList.COUNT.rawValue
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
